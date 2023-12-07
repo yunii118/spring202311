@@ -1,30 +1,26 @@
 package models.member;
 
+import lombok.NonNull;
+import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Service;
 
-import javax.print.attribute.standard.MediaSize;
-
 // 회원가입
-@Service // 스프링 관리객체를 의미
+@Service
+@RequiredArgsConstructor
 public class JoinService {
     // 이렇게 열려있는 구조로 바꾸면 통제하기 쉬움
     // ex -> memberDao = new CachedMemberDao()라고 할 경우
     // memberDao를 상속받는 다른 객체 사용 불가능
-    @Autowired
-    @Qualifier("memberDao")
-    private MemberDao memberDao;
-    @Autowired
-    private JoinValidator validator;
 
-    public JoinService(){}
-    public JoinService(MemberDao memberDao, JoinValidator validator){
-        this.memberDao = memberDao;
-        this.validator = validator;
-    }
+    private final MemberDao memberDao;
+    @NonNull
+    private JoinValidator validator;
+    // 가본생성자 없이 매개변수 있는 생성자만 존재하도록
+    // 객체 관리 위해 자동주입해줄수밖에 없음
+
 
     public void join(Member member){
         // 데이터 검증
