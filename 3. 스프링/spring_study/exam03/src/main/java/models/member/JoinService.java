@@ -1,7 +1,11 @@
 package models.member;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+
+import javax.print.attribute.standard.MediaSize;
 
 // 회원가입
 @Configuration
@@ -9,9 +13,13 @@ public class JoinService {
     // 이렇게 열려있는 구조로 바꾸면 통제하기 쉬움
     // ex -> memberDao = new CachedMemberDao()라고 할 경우
     // memberDao를 상속받는 다른 객체 사용 불가능
+    @Autowired
+    @Qualifier("memberDao")
     private MemberDao memberDao;
+    @Autowired
     private JoinValidator validator;
 
+    public JoinService(){}
     public JoinService(MemberDao memberDao, JoinValidator validator){
         this.memberDao = memberDao;
         this.validator = validator;

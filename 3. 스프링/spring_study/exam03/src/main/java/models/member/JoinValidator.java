@@ -3,10 +3,14 @@ package models.member;
 import commons.exceptions.BadRequestException;
 import commons.validators.RequiredValidator;
 import commons.validators.Validator;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 
 public class JoinValidator implements Validator<Member>, RequiredValidator {
-
+    @Autowired
+    @Qualifier("memberDao")
     private MemberDao memberDao;
+    public JoinValidator(){}
     // 전략 패턴
     // 변화에는 닫혀있고, 확장에는 열린 구조
     // 필요한 객체를 내부에 직접 생성하기보다는
