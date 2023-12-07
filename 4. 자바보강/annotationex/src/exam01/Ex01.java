@@ -1,10 +1,10 @@
 package exam01;
-@MyAnno
+@MyAnno("")
 public class Ex01 {
-    @MyAnno
+    @MyAnno("")
     int num;
 
-    @MyAnno
+    @MyAnno("")
     void Run(){}
 
 }
