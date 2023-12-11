@@ -15,6 +15,7 @@ public class Ex05 {
 
         }catch(SQLException e){
             e.printStackTrace();
+            System.out.println();
         }
     }
 }

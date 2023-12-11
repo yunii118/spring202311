@@ -6,7 +6,7 @@ public class Ex03 {
 
         }catch (Exception e){
             e.printStackTrace();
-
+            System.out.println();
         }
     }
 

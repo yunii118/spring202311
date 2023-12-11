@@ -31,6 +31,7 @@ public class Ex04 {
 
         }catch (SQLException e){
             e.printStackTrace();
+            System.out.println();
         }
 
     }

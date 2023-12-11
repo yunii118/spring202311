@@ -25,6 +25,7 @@ public class Ex06 {
 
         }catch (SQLException e){
             e.printStackTrace();
+            System.out.println();
         }
 
 

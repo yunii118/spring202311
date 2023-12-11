@@ -19,6 +19,7 @@ public class Ex02 {
             System.out.println(res);
         } catch (SQLException e) {
             e.printStackTrace();
+            System.out.println();
         }
 
     }
