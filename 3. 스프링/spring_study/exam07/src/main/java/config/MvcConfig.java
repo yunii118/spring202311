@@ -1,5 +1,6 @@
 package config;
 
+import commons.Utils;
 import models.member.Member;
 import nz.net.ultraq.thymeleaf.layoutdialect.LayoutDialect;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -34,6 +35,14 @@ public class MvcConfig implements WebMvcConfigurer {
                 .addResourceLocations("classpath:/static/");
         // 정적 자원 경로 찾0.
     }
+
+    @Override
+    public void addViewControllers(ViewControllerRegistry registry) {
+        registry.addViewController("/")
+                .setViewName("main/index");
+        // 컨트롤러 거치지 않고 페이지 호출할때 사용하는 메소드
+    }
+
     // timeleaf도 번역이 필요함
     // jspTemplate 말고 timeleaf 템플릿 사용하기 위한 설정
     @Bean
@@ -85,4 +94,10 @@ public class MvcConfig implements WebMvcConfigurer {
 
         return ms;
     }
+
+    @Bean
+    public Utils utils(){
+        return new Utils();
+    }
+
 }

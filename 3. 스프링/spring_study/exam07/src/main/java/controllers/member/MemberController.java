@@ -8,23 +8,20 @@ import org.springframework.web.bind.annotation.PostMapping;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 @Controller
 public class MemberController {
     @GetMapping("/member/join")
     public String join(Model model){
-        Member member = Member.builder()
-                .userNo(1L)
-                .userId("user01")
-                .userPw("1234")
-                .userNm("<h1>사용자01</h1>")
-                .email("user01@test.org")
-                .regDt(LocalDateTime.now())
-                .build();
+        String[] addCss={"member/style1", "member/style2"};
+        List<String> addScript = Arrays.asList("member/script1", "member/script2");
 
-        model.addAttribute("member", member);
+        model.addAttribute("addCss", addCss);
+        model.addAttribute("addScript", addScript);
         model.addAttribute("pageTitle", "회원가입");
+
         return "member/join";
     }
     @PostMapping("/member/join")
