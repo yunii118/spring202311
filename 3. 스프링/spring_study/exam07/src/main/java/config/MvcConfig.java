@@ -1,10 +1,14 @@
 package config;
 
+import commons.Utils;
+import models.member.Member;
 import nz.net.ultraq.thymeleaf.layoutdialect.LayoutDialect;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.MessageSource;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.support.ResourceBundleMessageSource;
 import org.springframework.web.servlet.config.annotation.*;
 import org.thymeleaf.extras.java8time.dialect.Java8TimeDialect;
 import org.thymeleaf.spring6.SpringTemplateEngine;
@@ -29,7 +33,16 @@ public class MvcConfig implements WebMvcConfigurer {
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("/**") // 기본경로 ~ 현재 경로를 포함한 모든 하위 경로
                 .addResourceLocations("classpath:/static/");
+        // 정적 자원 경로 찾0.
     }
+
+    @Override
+    public void addViewControllers(ViewControllerRegistry registry) {
+        registry.addViewController("/")
+                .setViewName("main/index");
+        // 컨트롤러 거치지 않고 페이지 호출할때 사용하는 메소드
+    }
+
     // timeleaf도 번역이 필요함
     // jspTemplate 말고 timeleaf 템플릿 사용하기 위한 설정
     @Bean
@@ -52,7 +65,7 @@ public class MvcConfig implements WebMvcConfigurer {
         // el식 컴파일러
         templateEngine.setEnableSpringELCompiler(true);
         // Dialect 확장기능
-        // javatime패키지 추가 - #temporals, 날짜에 대한 형식화
+        // DateTimeAPI - java.time패키지 추가 - #temporals, 날짜에 대한 형식화
         templateEngine.addDialect(new Java8TimeDialect());
         // layout 기능 추가
         templateEngine.addDialect(new LayoutDialect());
@@ -62,6 +75,7 @@ public class MvcConfig implements WebMvcConfigurer {
     @Bean
     public ThymeleafViewResolver thymeleafViewResolver() {
         ThymeleafViewResolver resolver = new ThymeleafViewResolver();
+        //<%@ page contentType="text/html"... %> 사용 안해도됨
         resolver.setContentType("text/html");
         resolver.setCharacterEncoding("utf-8");
         resolver.setTemplateEngine(templateEngine());
@@ -72,4 +86,18 @@ public class MvcConfig implements WebMvcConfigurer {
     public void configureViewResolvers(ViewResolverRegistry registry) {
         registry.viewResolver(thymeleafViewResolver());
     }
+    @Bean
+    public MessageSource messageSource(){
+        ResourceBundleMessageSource ms = new ResourceBundleMessageSource();
+        ms.setDefaultEncoding("UTf-8");
+        ms.setBasenames("messages.commons");
+
+        return ms;
+    }
+
+    @Bean
+    public Utils utils(){
+        return new Utils();
+    }
+
 }
