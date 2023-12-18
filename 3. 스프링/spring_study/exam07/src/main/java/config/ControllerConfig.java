@@ -7,7 +7,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan("controllers") // controllers 하위 패키지/클래스들 관리. 알아서스캔
+@ComponentScan({"controllers", "models"}) // controllers 하위 패키지/클래스들 관리. 알아서스캔
 public class ControllerConfig {
    /* @Bean
     public HelloController helloController(){

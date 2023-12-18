@@ -1,6 +1,7 @@
 package config;
 
 import commons.Utils;
+import controllers.member.JoinValidator;
 import models.member.Member;
 import nz.net.ultraq.thymeleaf.layoutdialect.LayoutDialect;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,7 +9,9 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.MessageSource;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Import;
 import org.springframework.context.support.ResourceBundleMessageSource;
+import org.springframework.validation.Validator;
 import org.springframework.web.servlet.config.annotation.*;
 import org.thymeleaf.extras.java8time.dialect.Java8TimeDialect;
 import org.thymeleaf.spring6.SpringTemplateEngine;
@@ -17,12 +20,22 @@ import org.thymeleaf.spring6.view.ThymeleafViewResolver;
 
 @Configuration
 @EnableWebMvc // 프록시 형태로 adepter, viewResolver, handler 다 추가됨
+@Import(DbConfig.class)
 public class MvcConfig implements WebMvcConfigurer {
 
     //WebMvcConfigurer
     // 웹에 대한 설정이 거의 다 들어가있음
     @Autowired
     private ApplicationContext applicationContext;
+   /* @Autowired
+    private JoinValidator joinValidator;
+
+    // 전역 Validator
+    @Override
+    public Validator getValidator() {
+        return joinValidator;
+    }*/
+
     @Override
     public void configureDefaultServletHandling(DefaultServletHandlerConfigurer configurer) {
         configurer.enable();
@@ -90,7 +103,7 @@ public class MvcConfig implements WebMvcConfigurer {
     public MessageSource messageSource(){
         ResourceBundleMessageSource ms = new ResourceBundleMessageSource();
         ms.setDefaultEncoding("UTf-8");
-        ms.setBasenames("messages.commons");
+        ms.setBasenames("messages.commons", "messages.validations");
 
         return ms;
     }
