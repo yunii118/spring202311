@@ -35,7 +35,14 @@ public class MvcConfig implements WebMvcConfigurer {
     public Validator getValidator() {
         return joinValidator;
     }*/
-
+    @Bean
+    public MemberOnlyInterceptor memberOnlyInterceptor(){
+        return new MemberOnlyInterceptor();
+    }
+    @Bean
+    public CommonInterceptor commonInterceptor(){
+        return new CommonInterceptor();
+    }
     @Override
     public void configureDefaultServletHandling(DefaultServletHandlerConfigurer configurer) {
         configurer.enable();
@@ -53,6 +60,8 @@ public class MvcConfig implements WebMvcConfigurer {
     public void addViewControllers(ViewControllerRegistry registry) {
         registry.addViewController("/")
                 .setViewName("main/index");
+        registry.addViewController("/mypage/**")
+                .setViewName("mypage/index");
         // 컨트롤러 거치지 않고 페이지 호출할때 사용하는 메소드
     }
 
@@ -113,4 +122,12 @@ public class MvcConfig implements WebMvcConfigurer {
         return new Utils();
     }
 
+    @Override
+    public void addInterceptors(InterceptorRegistry registry) {
+        registry.addInterceptor(memberOnlyInterceptor())
+                .addPathPatterns("/mypage/**");
+        registry.addInterceptor(commonInterceptor())
+                .addPathPatterns("/**");
+        // mypage 하위 항목들이 memberOnlyInterceptor()의 통제 하에 들어옴
+    }
 }
