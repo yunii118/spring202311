@@ -1,8 +1,12 @@
 package models.member;
 
+import controllers.admin.MemberSearch;
 import lombok.RequiredArgsConstructor;
 import mapper.MemberMapper;
 import org.springframework.stereotype.Repository;
+
+import java.time.LocalDate;
+import java.util.List;
 
 @Repository
 @RequiredArgsConstructor
@@ -23,5 +27,18 @@ public class MemberDao {
 
    public Member get(String userId){
         return memberMapper.get(userId);
+   }
+
+   public List<Member> getList(MemberSearch search){
+       // LocalDate는 2023-12-01 00:00:00 이런식으로 시간 포함됨
+       // -> edate가 12-01일경우 이를 포함시키기 위해서는 23:59:59는 포함안됨
+       // -> edate를 +1 해주고, 작거나 같다가 아님 작다로 조건 바궈줌
+       LocalDate edate = search.getEdate();
+       if(edate != null){
+           LocalDate newEdate = edate.plusDays(1);
+           search.setEdate(newEdate);
+       }
+
+       return memberMapper.getList(search);
    }
 }
