@@ -1,0 +1,906 @@
+18-Dec-2023 09:09:55.481 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.16
+18-Dec-2023 09:09:55.484 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Nov 10 2023 16:17:33 UTC
+18-Dec-2023 09:09:55.484 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.16.0
+18-Dec-2023 09:09:55.484 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+18-Dec-2023 09:09:55.484 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+18-Dec-2023 09:09:55.484 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+18-Dec-2023 09:09:55.484 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\dev\language\java-17
+18-Dec-2023 09:09:55.484 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.8.1+1
+18-Dec-2023 09:09:55.484 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Eclipse Adoptium
+18-Dec-2023 09:09:55.484 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\이윤희\3. 스프링\spring_study\exam07
+18-Dec-2023 09:09:55.485 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\이윤희\apache-tomcat-10.1.16
+18-Dec-2023 09:09:55.490 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Dec-2023 09:09:55.490 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+18-Dec-2023 09:09:55.492 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+18-Dec-2023 09:09:55.492 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Dec-2023 09:09:55.492 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Dec-2023 09:09:55.492 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=D:\이윤희\apache-tomcat-10.1.16
+18-Dec-2023 09:09:55.492 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=D:\이윤희\3. 스프링\spring_study\exam07
+18-Dec-2023 09:09:55.492 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=D:\이윤희\3. 스프링\spring_study\exam07\temp
+18-Dec-2023 09:09:55.492 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=D:\이윤희\3. 스프링\spring_study\exam07\conf\logging.properties
+18-Dec-2023 09:09:55.492 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Dec-2023 09:09:55.492 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\lib\idea_rt.jar=60976:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\bin
+18-Dec-2023 09:09:55.492 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+18-Dec-2023 09:09:55.515 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.4]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [2.0.6]을(를) 로드했습니다.
+18-Dec-2023 09:09:55.527 정보 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 3.0.11 19 Sep 2023]
+18-Dec-2023 09:09:55.689 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-3000"]을(를) 초기화합니다.
+18-Dec-2023 09:09:55.704 정보 [main] org.apache.catalina.startup.Catalina.load [436] 밀리초 내에 서버가 초기화되었습니다.
+18-Dec-2023 09:09:55.750 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+18-Dec-2023 09:09:55.750 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.16]
+18-Dec-2023 09:09:55.762 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [D:\이윤희\3. 스프링\spring_study\exam07\conf\Catalina\localhost\exam07.xml]을(를) 배치합니다.
+18-Dec-2023 09:09:58.588 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+18-Dec-2023 09:09:58.800 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [D:\이윤희\3. 스프링\spring_study\exam07\conf\Catalina\localhost\exam07.xml]의 배치가 [3,036] 밀리초 내에 완료되었습니다.
+18-Dec-2023 09:09:58.803 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-3000"]을(를) 시작합니다.
+18-Dec-2023 09:09:58.833 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [3128] 밀리초 내에 시작되었습니다.
+18-Dec-2023 09:14:45.574 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-3000"]을(를) 일시 정지 중
+18-Dec-2023 09:14:45.578 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+18-Dec-2023 09:14:45.588 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-3000"]을(를) 중지시킵니다.
+18-Dec-2023 09:14:45.590 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-3000"]을(를) 소멸시킵니다.
+18-Dec-2023 09:14:48.452 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.16
+18-Dec-2023 09:14:48.454 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Nov 10 2023 16:17:33 UTC
+18-Dec-2023 09:14:48.454 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.16.0
+18-Dec-2023 09:14:48.454 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+18-Dec-2023 09:14:48.454 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+18-Dec-2023 09:14:48.454 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+18-Dec-2023 09:14:48.454 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\dev\language\java-17
+18-Dec-2023 09:14:48.454 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.8.1+1
+18-Dec-2023 09:14:48.454 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Eclipse Adoptium
+18-Dec-2023 09:14:48.454 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\이윤희\3. 스프링\spring_study\exam07
+18-Dec-2023 09:14:48.454 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\이윤희\apache-tomcat-10.1.16
+18-Dec-2023 09:14:48.462 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Dec-2023 09:14:48.462 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+18-Dec-2023 09:14:48.462 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+18-Dec-2023 09:14:48.462 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Dec-2023 09:14:48.462 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Dec-2023 09:14:48.462 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=D:\이윤희\apache-tomcat-10.1.16
+18-Dec-2023 09:14:48.462 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=D:\이윤희\3. 스프링\spring_study\exam07
+18-Dec-2023 09:14:48.462 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=D:\이윤희\3. 스프링\spring_study\exam07\temp
+18-Dec-2023 09:14:48.462 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=D:\이윤희\3. 스프링\spring_study\exam07\conf\logging.properties
+18-Dec-2023 09:14:48.462 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Dec-2023 09:14:48.462 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\lib\idea_rt.jar=61037:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\bin
+18-Dec-2023 09:14:48.462 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+18-Dec-2023 09:14:48.464 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.4]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [2.0.6]을(를) 로드했습니다.
+18-Dec-2023 09:14:48.469 정보 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 3.0.11 19 Sep 2023]
+18-Dec-2023 09:14:48.633 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-3000"]을(를) 초기화합니다.
+18-Dec-2023 09:14:48.649 정보 [main] org.apache.catalina.startup.Catalina.load [332] 밀리초 내에 서버가 초기화되었습니다.
+18-Dec-2023 09:14:48.695 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+18-Dec-2023 09:14:48.696 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.16]
+18-Dec-2023 09:14:48.706 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [D:\이윤희\3. 스프링\spring_study\exam07\conf\Catalina\localhost\exam07.xml]을(를) 배치합니다.
+18-Dec-2023 09:14:50.818 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+18-Dec-2023 09:14:51.018 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [D:\이윤희\3. 스프링\spring_study\exam07\conf\Catalina\localhost\exam07.xml]의 배치가 [2,309] 밀리초 내에 완료되었습니다.
+18-Dec-2023 09:14:51.020 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-3000"]을(를) 시작합니다.
+18-Dec-2023 09:14:51.048 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [2399] 밀리초 내에 시작되었습니다.
+18-Dec-2023 09:14:54.143 INFO [http-nio-3000-exec-1] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 8.0.1.Final
+18-Dec-2023 10:44:17.907 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-3000"]을(를) 일시 정지 중
+18-Dec-2023 10:44:17.916 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+18-Dec-2023 10:44:17.965 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-3000"]을(를) 중지시킵니다.
+18-Dec-2023 10:44:17.969 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-3000"]을(를) 소멸시킵니다.
+18-Dec-2023 10:44:20.185 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.16
+18-Dec-2023 10:44:20.187 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Nov 10 2023 16:17:33 UTC
+18-Dec-2023 10:44:20.187 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.16.0
+18-Dec-2023 10:44:20.187 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+18-Dec-2023 10:44:20.187 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+18-Dec-2023 10:44:20.188 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+18-Dec-2023 10:44:20.188 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\dev\language\java-17
+18-Dec-2023 10:44:20.188 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.8.1+1
+18-Dec-2023 10:44:20.188 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Eclipse Adoptium
+18-Dec-2023 10:44:20.188 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\이윤희\3. 스프링\spring_study\exam07
+18-Dec-2023 10:44:20.188 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\이윤희\apache-tomcat-10.1.16
+18-Dec-2023 10:44:20.195 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Dec-2023 10:44:20.195 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+18-Dec-2023 10:44:20.195 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+18-Dec-2023 10:44:20.195 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Dec-2023 10:44:20.195 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Dec-2023 10:44:20.195 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=D:\이윤희\apache-tomcat-10.1.16
+18-Dec-2023 10:44:20.195 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=D:\이윤희\3. 스프링\spring_study\exam07
+18-Dec-2023 10:44:20.195 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=D:\이윤희\3. 스프링\spring_study\exam07\temp
+18-Dec-2023 10:44:20.195 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=D:\이윤희\3. 스프링\spring_study\exam07\conf\logging.properties
+18-Dec-2023 10:44:20.196 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Dec-2023 10:44:20.196 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\lib\idea_rt.jar=62250:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\bin
+18-Dec-2023 10:44:20.196 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+18-Dec-2023 10:44:20.197 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.4]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [2.0.6]을(를) 로드했습니다.
+18-Dec-2023 10:44:20.202 정보 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 3.0.11 19 Sep 2023]
+18-Dec-2023 10:44:20.370 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-3000"]을(를) 초기화합니다.
+18-Dec-2023 10:44:20.385 정보 [main] org.apache.catalina.startup.Catalina.load [338] 밀리초 내에 서버가 초기화되었습니다.
+18-Dec-2023 10:44:20.422 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+18-Dec-2023 10:44:20.423 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.16]
+18-Dec-2023 10:44:20.432 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [D:\이윤희\3. 스프링\spring_study\exam07\conf\Catalina\localhost\exam07.xml]을(를) 배치합니다.
+18-Dec-2023 10:44:22.548 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+18-Dec-2023 10:44:22.731 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [D:\이윤희\3. 스프링\spring_study\exam07\conf\Catalina\localhost\exam07.xml]의 배치가 [2,297] 밀리초 내에 완료되었습니다.
+18-Dec-2023 10:44:22.734 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-3000"]을(를) 시작합니다.
+18-Dec-2023 10:44:22.760 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [2375] 밀리초 내에 시작되었습니다.
+18-Dec-2023 11:41:31.878 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-3000"]을(를) 일시 정지 중
+18-Dec-2023 11:41:31.881 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+18-Dec-2023 11:41:31.889 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-3000"]을(를) 중지시킵니다.
+18-Dec-2023 11:41:31.891 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-3000"]을(를) 소멸시킵니다.
+18-Dec-2023 11:41:34.389 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.16
+18-Dec-2023 11:41:34.391 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Nov 10 2023 16:17:33 UTC
+18-Dec-2023 11:41:34.391 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.16.0
+18-Dec-2023 11:41:34.391 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+18-Dec-2023 11:41:34.392 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+18-Dec-2023 11:41:34.392 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+18-Dec-2023 11:41:34.392 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\dev\language\java-17
+18-Dec-2023 11:41:34.392 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.8.1+1
+18-Dec-2023 11:41:34.392 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Eclipse Adoptium
+18-Dec-2023 11:41:34.392 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\이윤희\3. 스프링\spring_study\exam07
+18-Dec-2023 11:41:34.392 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\이윤희\apache-tomcat-10.1.16
+18-Dec-2023 11:41:34.399 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Dec-2023 11:41:34.399 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+18-Dec-2023 11:41:34.399 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+18-Dec-2023 11:41:34.399 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Dec-2023 11:41:34.399 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Dec-2023 11:41:34.399 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=D:\이윤희\apache-tomcat-10.1.16
+18-Dec-2023 11:41:34.399 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=D:\이윤희\3. 스프링\spring_study\exam07
+18-Dec-2023 11:41:34.399 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=D:\이윤희\3. 스프링\spring_study\exam07\temp
+18-Dec-2023 11:41:34.399 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=D:\이윤희\3. 스프링\spring_study\exam07\conf\logging.properties
+18-Dec-2023 11:41:34.400 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Dec-2023 11:41:34.400 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\lib\idea_rt.jar=63089:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\bin
+18-Dec-2023 11:41:34.400 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+18-Dec-2023 11:41:34.402 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.4]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [2.0.6]을(를) 로드했습니다.
+18-Dec-2023 11:41:34.405 정보 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 3.0.11 19 Sep 2023]
+18-Dec-2023 11:41:34.571 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-3000"]을(를) 초기화합니다.
+18-Dec-2023 11:41:34.586 정보 [main] org.apache.catalina.startup.Catalina.load [332] 밀리초 내에 서버가 초기화되었습니다.
+18-Dec-2023 11:41:34.624 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+18-Dec-2023 11:41:34.625 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.16]
+18-Dec-2023 11:41:34.635 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [D:\이윤희\3. 스프링\spring_study\exam07\conf\Catalina\localhost\exam07.xml]을(를) 배치합니다.
+18-Dec-2023 11:41:36.773 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+18-Dec-2023 11:41:36.969 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [D:\이윤희\3. 스프링\spring_study\exam07\conf\Catalina\localhost\exam07.xml]의 배치가 [2,332] 밀리초 내에 완료되었습니다.
+18-Dec-2023 11:41:36.971 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-3000"]을(를) 시작합니다.
+18-Dec-2023 11:41:36.999 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [2413] 밀리초 내에 시작되었습니다.
+18-Dec-2023 11:41:39.161 INFO [http-nio-3000-exec-3] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 8.0.1.Final
+18-Dec-2023 11:57:41.015 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-3000"]을(를) 일시 정지 중
+18-Dec-2023 11:57:41.019 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+18-Dec-2023 11:57:41.208 경고 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc 웹 애플리케이션 [exam07]이(가) JDBC 드라이버 [oracle.jdbc.OracleDriver]을(를) 등록했지만, 웹 애플리케이션이 중지될 때, 해당 JDBC 드라이버의 등록을 제거하지 못했습니다. 메모리 누수를 방지하기 위하여, 등록을 강제로 제거했습니다.
+18-Dec-2023 11:57:41.209 경고 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads 웹 애플리케이션 [exam07]이(가) [oracle.jdbc.diagnostics.Diagnostic.CLOCK](이)라는 이름의 쓰레드를 시작시킨 것으로 보이지만, 해당 쓰레드를 중지시키지 못했습니다. 이는 메모리 누수를 유발할 가능성이 큽니다. 해당 쓰레드의 스택 트레이스:
+ java.base@17.0.8.1/java.lang.Object.wait(Native Method)
+ java.base@17.0.8.1/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base@17.0.8.1/java.util.TimerThread.run(Timer.java:516)
+18-Dec-2023 11:57:41.213 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-3000"]을(를) 중지시킵니다.
+18-Dec-2023 11:57:41.217 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-3000"]을(를) 소멸시킵니다.
+18-Dec-2023 11:57:42.235 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.16
+18-Dec-2023 11:57:42.237 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Nov 10 2023 16:17:33 UTC
+18-Dec-2023 11:57:42.237 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.16.0
+18-Dec-2023 11:57:42.237 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+18-Dec-2023 11:57:42.237 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+18-Dec-2023 11:57:42.237 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+18-Dec-2023 11:57:42.238 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\dev\language\java-17
+18-Dec-2023 11:57:42.238 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.8.1+1
+18-Dec-2023 11:57:42.238 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Eclipse Adoptium
+18-Dec-2023 11:57:42.238 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\이윤희\3. 스프링\spring_study\exam07
+18-Dec-2023 11:57:42.238 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\이윤희\apache-tomcat-10.1.16
+18-Dec-2023 11:57:42.245 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Dec-2023 11:57:42.245 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+18-Dec-2023 11:57:42.245 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+18-Dec-2023 11:57:42.245 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Dec-2023 11:57:42.245 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Dec-2023 11:57:42.245 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=D:\이윤희\apache-tomcat-10.1.16
+18-Dec-2023 11:57:42.245 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=D:\이윤희\3. 스프링\spring_study\exam07
+18-Dec-2023 11:57:42.245 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=D:\이윤희\3. 스프링\spring_study\exam07\temp
+18-Dec-2023 11:57:42.245 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=D:\이윤희\3. 스프링\spring_study\exam07\conf\logging.properties
+18-Dec-2023 11:57:42.245 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Dec-2023 11:57:42.245 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\lib\idea_rt.jar=63308:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\bin
+18-Dec-2023 11:57:42.245 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+18-Dec-2023 11:57:42.247 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.4]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [2.0.6]을(를) 로드했습니다.
+18-Dec-2023 11:57:42.251 정보 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 3.0.11 19 Sep 2023]
+18-Dec-2023 11:57:42.475 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-3000"]을(를) 초기화합니다.
+18-Dec-2023 11:57:42.493 정보 [main] org.apache.catalina.startup.Catalina.load [425] 밀리초 내에 서버가 초기화되었습니다.
+18-Dec-2023 11:57:42.530 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+18-Dec-2023 11:57:42.532 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.16]
+18-Dec-2023 11:57:42.543 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [D:\이윤희\3. 스프링\spring_study\exam07\conf\Catalina\localhost\exam07.xml]을(를) 배치합니다.
+18-Dec-2023 11:57:44.698 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+18-Dec-2023 11:57:44.876 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [D:\이윤희\3. 스프링\spring_study\exam07\conf\Catalina\localhost\exam07.xml]의 배치가 [2,329] 밀리초 내에 완료되었습니다.
+18-Dec-2023 11:57:44.878 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-3000"]을(를) 시작합니다.
+18-Dec-2023 11:57:44.906 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [2412] 밀리초 내에 시작되었습니다.
+18-Dec-2023 11:57:50.030 INFO [http-nio-3000-exec-1] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 8.0.1.Final
+18-Dec-2023 11:58:09.070 경고 [http-nio-3000-exec-4] org.apache.tomcat.jdbc.pool.ConnectionPool.checkPoolConfiguration maxIdle is larger than maxActive, setting maxIdle to: 10
+18-Dec-2023 11:59:17.233 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-3000"]을(를) 일시 정지 중
+18-Dec-2023 11:59:17.236 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+18-Dec-2023 11:59:17.390 경고 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc 웹 애플리케이션 [exam07]이(가) JDBC 드라이버 [oracle.jdbc.OracleDriver]을(를) 등록했지만, 웹 애플리케이션이 중지될 때, 해당 JDBC 드라이버의 등록을 제거하지 못했습니다. 메모리 누수를 방지하기 위하여, 등록을 강제로 제거했습니다.
+18-Dec-2023 11:59:17.391 경고 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads 웹 애플리케이션 [exam07]이(가) [oracle.jdbc.diagnostics.Diagnostic.CLOCK](이)라는 이름의 쓰레드를 시작시킨 것으로 보이지만, 해당 쓰레드를 중지시키지 못했습니다. 이는 메모리 누수를 유발할 가능성이 큽니다. 해당 쓰레드의 스택 트레이스:
+ java.base@17.0.8.1/java.lang.Object.wait(Native Method)
+ java.base@17.0.8.1/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base@17.0.8.1/java.util.TimerThread.run(Timer.java:516)
+18-Dec-2023 11:59:17.395 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-3000"]을(를) 중지시킵니다.
+18-Dec-2023 11:59:17.399 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-3000"]을(를) 소멸시킵니다.
+18-Dec-2023 11:59:19.664 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.16
+18-Dec-2023 11:59:19.667 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Nov 10 2023 16:17:33 UTC
+18-Dec-2023 11:59:19.667 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.16.0
+18-Dec-2023 11:59:19.667 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+18-Dec-2023 11:59:19.667 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+18-Dec-2023 11:59:19.667 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+18-Dec-2023 11:59:19.667 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\dev\language\java-17
+18-Dec-2023 11:59:19.667 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.8.1+1
+18-Dec-2023 11:59:19.667 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Eclipse Adoptium
+18-Dec-2023 11:59:19.667 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\이윤희\3. 스프링\spring_study\exam07
+18-Dec-2023 11:59:19.667 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\이윤희\apache-tomcat-10.1.16
+18-Dec-2023 11:59:19.674 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Dec-2023 11:59:19.674 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+18-Dec-2023 11:59:19.674 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+18-Dec-2023 11:59:19.674 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Dec-2023 11:59:19.674 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Dec-2023 11:59:19.674 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=D:\이윤희\apache-tomcat-10.1.16
+18-Dec-2023 11:59:19.674 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=D:\이윤희\3. 스프링\spring_study\exam07
+18-Dec-2023 11:59:19.674 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=D:\이윤희\3. 스프링\spring_study\exam07\temp
+18-Dec-2023 11:59:19.675 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=D:\이윤희\3. 스프링\spring_study\exam07\conf\logging.properties
+18-Dec-2023 11:59:19.675 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Dec-2023 11:59:19.675 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\lib\idea_rt.jar=63334:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\bin
+18-Dec-2023 11:59:19.675 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+18-Dec-2023 11:59:19.677 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.4]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [2.0.6]을(를) 로드했습니다.
+18-Dec-2023 11:59:19.680 정보 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 3.0.11 19 Sep 2023]
+18-Dec-2023 11:59:19.846 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-3000"]을(를) 초기화합니다.
+18-Dec-2023 11:59:19.858 정보 [main] org.apache.catalina.startup.Catalina.load [332] 밀리초 내에 서버가 초기화되었습니다.
+18-Dec-2023 11:59:19.898 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+18-Dec-2023 11:59:19.898 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.16]
+18-Dec-2023 11:59:19.909 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [D:\이윤희\3. 스프링\spring_study\exam07\conf\Catalina\localhost\exam07.xml]을(를) 배치합니다.
+18-Dec-2023 11:59:22.064 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+18-Dec-2023 11:59:22.269 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [D:\이윤희\3. 스프링\spring_study\exam07\conf\Catalina\localhost\exam07.xml]의 배치가 [2,358] 밀리초 내에 완료되었습니다.
+18-Dec-2023 11:59:22.271 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-3000"]을(를) 시작합니다.
+18-Dec-2023 11:59:22.299 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [2441] 밀리초 내에 시작되었습니다.
+18-Dec-2023 11:59:27.408 INFO [http-nio-3000-exec-1] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 8.0.1.Final
+18-Dec-2023 12:13:41.736 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-3000"]을(를) 일시 정지 중
+18-Dec-2023 12:13:41.739 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+18-Dec-2023 12:13:41.746 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-3000"]을(를) 중지시킵니다.
+18-Dec-2023 12:13:41.749 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-3000"]을(를) 소멸시킵니다.
+18-Dec-2023 12:13:43.191 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.16
+18-Dec-2023 12:13:43.194 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Nov 10 2023 16:17:33 UTC
+18-Dec-2023 12:13:43.194 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.16.0
+18-Dec-2023 12:13:43.194 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+18-Dec-2023 12:13:43.194 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+18-Dec-2023 12:13:43.194 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+18-Dec-2023 12:13:43.194 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\dev\language\java-17
+18-Dec-2023 12:13:43.194 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.8.1+1
+18-Dec-2023 12:13:43.195 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Eclipse Adoptium
+18-Dec-2023 12:13:43.195 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\이윤희\3. 스프링\spring_study\exam07
+18-Dec-2023 12:13:43.195 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\이윤희\apache-tomcat-10.1.16
+18-Dec-2023 12:13:43.203 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Dec-2023 12:13:43.203 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+18-Dec-2023 12:13:43.203 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+18-Dec-2023 12:13:43.204 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Dec-2023 12:13:43.204 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Dec-2023 12:13:43.204 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=D:\이윤희\apache-tomcat-10.1.16
+18-Dec-2023 12:13:43.204 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=D:\이윤희\3. 스프링\spring_study\exam07
+18-Dec-2023 12:13:43.204 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=D:\이윤희\3. 스프링\spring_study\exam07\temp
+18-Dec-2023 12:13:43.204 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=D:\이윤희\3. 스프링\spring_study\exam07\conf\logging.properties
+18-Dec-2023 12:13:43.204 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Dec-2023 12:13:43.204 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\lib\idea_rt.jar=63493:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\bin
+18-Dec-2023 12:13:43.204 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+18-Dec-2023 12:13:43.207 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.4]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [2.0.6]을(를) 로드했습니다.
+18-Dec-2023 12:13:43.211 정보 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 3.0.11 19 Sep 2023]
+18-Dec-2023 12:13:43.386 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-3000"]을(를) 초기화합니다.
+18-Dec-2023 12:13:43.402 정보 [main] org.apache.catalina.startup.Catalina.load [373] 밀리초 내에 서버가 초기화되었습니다.
+18-Dec-2023 12:13:43.438 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+18-Dec-2023 12:13:43.438 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.16]
+18-Dec-2023 12:13:43.450 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [D:\이윤희\3. 스프링\spring_study\exam07\conf\Catalina\localhost\exam07.xml]을(를) 배치합니다.
+18-Dec-2023 12:13:45.594 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+18-Dec-2023 12:13:45.771 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [D:\이윤희\3. 스프링\spring_study\exam07\conf\Catalina\localhost\exam07.xml]의 배치가 [2,319] 밀리초 내에 완료되었습니다.
+18-Dec-2023 12:13:45.775 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-3000"]을(를) 시작합니다.
+18-Dec-2023 12:13:45.803 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [2400] 밀리초 내에 시작되었습니다.
+18-Dec-2023 12:13:50.991 INFO [http-nio-3000-exec-2] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 8.0.1.Final
+18-Dec-2023 12:30:02.251 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-3000"]을(를) 일시 정지 중
+18-Dec-2023 12:30:02.255 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+18-Dec-2023 12:30:02.263 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-3000"]을(를) 중지시킵니다.
+18-Dec-2023 12:30:02.266 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-3000"]을(를) 소멸시킵니다.
+18-Dec-2023 12:30:04.647 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.16
+18-Dec-2023 12:30:04.650 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Nov 10 2023 16:17:33 UTC
+18-Dec-2023 12:30:04.652 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.16.0
+18-Dec-2023 12:30:04.652 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+18-Dec-2023 12:30:04.652 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+18-Dec-2023 12:30:04.652 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+18-Dec-2023 12:30:04.652 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\dev\language\java-17
+18-Dec-2023 12:30:04.652 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.8.1+1
+18-Dec-2023 12:30:04.652 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Eclipse Adoptium
+18-Dec-2023 12:30:04.652 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\이윤희\3. 스프링\spring_study\exam07
+18-Dec-2023 12:30:04.652 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\이윤희\apache-tomcat-10.1.16
+18-Dec-2023 12:30:04.660 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Dec-2023 12:30:04.660 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+18-Dec-2023 12:30:04.660 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+18-Dec-2023 12:30:04.660 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Dec-2023 12:30:04.660 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Dec-2023 12:30:04.660 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=D:\이윤희\apache-tomcat-10.1.16
+18-Dec-2023 12:30:04.661 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=D:\이윤희\3. 스프링\spring_study\exam07
+18-Dec-2023 12:30:04.661 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=D:\이윤희\3. 스프링\spring_study\exam07\temp
+18-Dec-2023 12:30:04.661 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=D:\이윤희\3. 스프링\spring_study\exam07\conf\logging.properties
+18-Dec-2023 12:30:04.661 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Dec-2023 12:30:04.661 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\lib\idea_rt.jar=63723:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\bin
+18-Dec-2023 12:30:04.661 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+18-Dec-2023 12:30:04.663 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.4]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [2.0.6]을(를) 로드했습니다.
+18-Dec-2023 12:30:04.668 정보 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 3.0.11 19 Sep 2023]
+18-Dec-2023 12:30:04.879 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-3000"]을(를) 초기화합니다.
+18-Dec-2023 12:30:04.900 정보 [main] org.apache.catalina.startup.Catalina.load [427] 밀리초 내에 서버가 초기화되었습니다.
+18-Dec-2023 12:30:04.948 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+18-Dec-2023 12:30:04.949 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.16]
+18-Dec-2023 12:30:04.961 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [D:\이윤희\3. 스프링\spring_study\exam07\conf\Catalina\localhost\exam07.xml]을(를) 배치합니다.
+18-Dec-2023 12:30:07.212 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+18-Dec-2023 12:30:07.410 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [D:\이윤희\3. 스프링\spring_study\exam07\conf\Catalina\localhost\exam07.xml]의 배치가 [2,447] 밀리초 내에 완료되었습니다.
+18-Dec-2023 12:30:07.412 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-3000"]을(를) 시작합니다.
+18-Dec-2023 12:30:07.448 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [2546] 밀리초 내에 시작되었습니다.
+18-Dec-2023 12:30:29.659 INFO [http-nio-3000-exec-1] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 8.0.1.Final
+18-Dec-2023 14:15:51.152 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-3000"]을(를) 일시 정지 중
+18-Dec-2023 14:15:51.156 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+18-Dec-2023 14:15:51.168 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-3000"]을(를) 중지시킵니다.
+18-Dec-2023 14:15:51.180 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-3000"]을(를) 소멸시킵니다.
+18-Dec-2023 14:15:53.599 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.16
+18-Dec-2023 14:15:53.601 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Nov 10 2023 16:17:33 UTC
+18-Dec-2023 14:15:53.601 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.16.0
+18-Dec-2023 14:15:53.602 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+18-Dec-2023 14:15:53.602 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+18-Dec-2023 14:15:53.602 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+18-Dec-2023 14:15:53.602 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\dev\language\java-17
+18-Dec-2023 14:15:53.602 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.8.1+1
+18-Dec-2023 14:15:53.602 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Eclipse Adoptium
+18-Dec-2023 14:15:53.602 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\이윤희\3. 스프링\spring_study\exam07
+18-Dec-2023 14:15:53.602 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\이윤희\apache-tomcat-10.1.16
+18-Dec-2023 14:15:53.609 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Dec-2023 14:15:53.609 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+18-Dec-2023 14:15:53.609 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+18-Dec-2023 14:15:53.609 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Dec-2023 14:15:53.609 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Dec-2023 14:15:53.609 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=D:\이윤희\apache-tomcat-10.1.16
+18-Dec-2023 14:15:53.609 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=D:\이윤희\3. 스프링\spring_study\exam07
+18-Dec-2023 14:15:53.609 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=D:\이윤희\3. 스프링\spring_study\exam07\temp
+18-Dec-2023 14:15:53.609 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=D:\이윤희\3. 스프링\spring_study\exam07\conf\logging.properties
+18-Dec-2023 14:15:53.609 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Dec-2023 14:15:53.609 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\lib\idea_rt.jar=49958:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\bin
+18-Dec-2023 14:15:53.609 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+18-Dec-2023 14:15:53.611 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.4]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [2.0.6]을(를) 로드했습니다.
+18-Dec-2023 14:15:53.615 정보 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 3.0.11 19 Sep 2023]
+18-Dec-2023 14:15:53.785 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-3000"]을(를) 초기화합니다.
+18-Dec-2023 14:15:53.801 정보 [main] org.apache.catalina.startup.Catalina.load [346] 밀리초 내에 서버가 초기화되었습니다.
+18-Dec-2023 14:15:53.841 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+18-Dec-2023 14:15:53.841 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.16]
+18-Dec-2023 14:15:53.851 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [D:\이윤희\3. 스프링\spring_study\exam07\conf\Catalina\localhost\exam07.xml]을(를) 배치합니다.
+18-Dec-2023 14:15:56.058 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+18-Dec-2023 14:15:56.258 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [D:\이윤희\3. 스프링\spring_study\exam07\conf\Catalina\localhost\exam07.xml]의 배치가 [2,404] 밀리초 내에 완료되었습니다.
+18-Dec-2023 14:15:56.259 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-3000"]을(를) 시작합니다.
+18-Dec-2023 14:15:56.291 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [2489] 밀리초 내에 시작되었습니다.
+18-Dec-2023 14:16:02.996 INFO [http-nio-3000-exec-4] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 8.0.1.Final
+18-Dec-2023 14:19:52.728 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-3000"]을(를) 일시 정지 중
+18-Dec-2023 14:19:52.731 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+18-Dec-2023 14:19:52.739 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-3000"]을(를) 중지시킵니다.
+18-Dec-2023 14:19:52.741 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-3000"]을(를) 소멸시킵니다.
+18-Dec-2023 14:19:54.951 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.16
+18-Dec-2023 14:19:54.955 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Nov 10 2023 16:17:33 UTC
+18-Dec-2023 14:19:54.955 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.16.0
+18-Dec-2023 14:19:54.955 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+18-Dec-2023 14:19:54.955 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+18-Dec-2023 14:19:54.956 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+18-Dec-2023 14:19:54.956 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\dev\language\java-17
+18-Dec-2023 14:19:54.956 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.8.1+1
+18-Dec-2023 14:19:54.956 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Eclipse Adoptium
+18-Dec-2023 14:19:54.956 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\이윤희\3. 스프링\spring_study\exam07
+18-Dec-2023 14:19:54.956 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\이윤희\apache-tomcat-10.1.16
+18-Dec-2023 14:19:54.962 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Dec-2023 14:19:54.962 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+18-Dec-2023 14:19:54.962 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+18-Dec-2023 14:19:54.962 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Dec-2023 14:19:54.962 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Dec-2023 14:19:54.962 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=D:\이윤희\apache-tomcat-10.1.16
+18-Dec-2023 14:19:54.962 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=D:\이윤희\3. 스프링\spring_study\exam07
+18-Dec-2023 14:19:54.962 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=D:\이윤희\3. 스프링\spring_study\exam07\temp
+18-Dec-2023 14:19:54.962 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=D:\이윤희\3. 스프링\spring_study\exam07\conf\logging.properties
+18-Dec-2023 14:19:54.962 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Dec-2023 14:19:54.962 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\lib\idea_rt.jar=50118:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\bin
+18-Dec-2023 14:19:54.962 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+18-Dec-2023 14:19:54.964 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.4]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [2.0.6]을(를) 로드했습니다.
+18-Dec-2023 14:19:54.968 정보 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 3.0.11 19 Sep 2023]
+18-Dec-2023 14:19:55.139 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-3000"]을(를) 초기화합니다.
+18-Dec-2023 14:19:55.153 정보 [main] org.apache.catalina.startup.Catalina.load [334] 밀리초 내에 서버가 초기화되었습니다.
+18-Dec-2023 14:19:55.193 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+18-Dec-2023 14:19:55.193 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.16]
+18-Dec-2023 14:19:55.203 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [D:\이윤희\3. 스프링\spring_study\exam07\conf\Catalina\localhost\exam07.xml]을(를) 배치합니다.
+18-Dec-2023 14:19:57.297 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+18-Dec-2023 14:19:57.480 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [D:\이윤희\3. 스프링\spring_study\exam07\conf\Catalina\localhost\exam07.xml]의 배치가 [2,274] 밀리초 내에 완료되었습니다.
+18-Dec-2023 14:19:57.482 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-3000"]을(를) 시작합니다.
+18-Dec-2023 14:19:57.509 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [2357] 밀리초 내에 시작되었습니다.
+18-Dec-2023 14:20:06.480 INFO [http-nio-3000-exec-2] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 8.0.1.Final
+18-Dec-2023 14:22:06.351 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-3000"]을(를) 일시 정지 중
+18-Dec-2023 14:22:06.354 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+18-Dec-2023 14:22:06.361 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-3000"]을(를) 중지시킵니다.
+18-Dec-2023 14:22:06.364 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-3000"]을(를) 소멸시킵니다.
+18-Dec-2023 14:22:08.586 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.16
+18-Dec-2023 14:22:08.589 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Nov 10 2023 16:17:33 UTC
+18-Dec-2023 14:22:08.589 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.16.0
+18-Dec-2023 14:22:08.589 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+18-Dec-2023 14:22:08.589 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+18-Dec-2023 14:22:08.589 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+18-Dec-2023 14:22:08.589 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\dev\language\java-17
+18-Dec-2023 14:22:08.589 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.8.1+1
+18-Dec-2023 14:22:08.589 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Eclipse Adoptium
+18-Dec-2023 14:22:08.589 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\이윤희\3. 스프링\spring_study\exam07
+18-Dec-2023 14:22:08.589 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\이윤희\apache-tomcat-10.1.16
+18-Dec-2023 14:22:08.597 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Dec-2023 14:22:08.597 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+18-Dec-2023 14:22:08.597 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+18-Dec-2023 14:22:08.598 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Dec-2023 14:22:08.598 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Dec-2023 14:22:08.598 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=D:\이윤희\apache-tomcat-10.1.16
+18-Dec-2023 14:22:08.598 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=D:\이윤희\3. 스프링\spring_study\exam07
+18-Dec-2023 14:22:08.598 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=D:\이윤희\3. 스프링\spring_study\exam07\temp
+18-Dec-2023 14:22:08.598 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=D:\이윤희\3. 스프링\spring_study\exam07\conf\logging.properties
+18-Dec-2023 14:22:08.598 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Dec-2023 14:22:08.598 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\lib\idea_rt.jar=50201:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\bin
+18-Dec-2023 14:22:08.598 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+18-Dec-2023 14:22:08.600 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.4]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [2.0.6]을(를) 로드했습니다.
+18-Dec-2023 14:22:08.604 정보 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 3.0.11 19 Sep 2023]
+18-Dec-2023 14:22:08.771 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-3000"]을(를) 초기화합니다.
+18-Dec-2023 14:22:08.787 정보 [main] org.apache.catalina.startup.Catalina.load [342] 밀리초 내에 서버가 초기화되었습니다.
+18-Dec-2023 14:22:08.825 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+18-Dec-2023 14:22:08.825 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.16]
+18-Dec-2023 14:22:08.835 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [D:\이윤희\3. 스프링\spring_study\exam07\conf\Catalina\localhost\exam07.xml]을(를) 배치합니다.
+18-Dec-2023 14:22:10.962 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+18-Dec-2023 14:22:11.141 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [D:\이윤희\3. 스프링\spring_study\exam07\conf\Catalina\localhost\exam07.xml]의 배치가 [2,304] 밀리초 내에 완료되었습니다.
+18-Dec-2023 14:22:11.143 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-3000"]을(를) 시작합니다.
+18-Dec-2023 14:22:11.171 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [2384] 밀리초 내에 시작되었습니다.
+18-Dec-2023 14:22:19.538 INFO [http-nio-3000-exec-1] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 8.0.1.Final
+18-Dec-2023 14:25:21.582 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-3000"]을(를) 일시 정지 중
+18-Dec-2023 14:25:21.586 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+18-Dec-2023 14:25:21.595 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-3000"]을(를) 중지시킵니다.
+18-Dec-2023 14:25:21.601 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-3000"]을(를) 소멸시킵니다.
+18-Dec-2023 14:25:24.565 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.16
+18-Dec-2023 14:25:24.568 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Nov 10 2023 16:17:33 UTC
+18-Dec-2023 14:25:24.568 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.16.0
+18-Dec-2023 14:25:24.569 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+18-Dec-2023 14:25:24.569 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+18-Dec-2023 14:25:24.569 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+18-Dec-2023 14:25:24.569 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\dev\language\java-17
+18-Dec-2023 14:25:24.569 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.8.1+1
+18-Dec-2023 14:25:24.569 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Eclipse Adoptium
+18-Dec-2023 14:25:24.569 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\이윤희\3. 스프링\spring_study\exam07
+18-Dec-2023 14:25:24.569 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\이윤희\apache-tomcat-10.1.16
+18-Dec-2023 14:25:24.576 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Dec-2023 14:25:24.576 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+18-Dec-2023 14:25:24.576 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+18-Dec-2023 14:25:24.576 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Dec-2023 14:25:24.576 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Dec-2023 14:25:24.576 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=D:\이윤희\apache-tomcat-10.1.16
+18-Dec-2023 14:25:24.576 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=D:\이윤희\3. 스프링\spring_study\exam07
+18-Dec-2023 14:25:24.576 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=D:\이윤희\3. 스프링\spring_study\exam07\temp
+18-Dec-2023 14:25:24.576 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=D:\이윤희\3. 스프링\spring_study\exam07\conf\logging.properties
+18-Dec-2023 14:25:24.576 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Dec-2023 14:25:24.576 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\lib\idea_rt.jar=50326:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\bin
+18-Dec-2023 14:25:24.576 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+18-Dec-2023 14:25:24.578 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.4]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [2.0.6]을(를) 로드했습니다.
+18-Dec-2023 14:25:24.582 정보 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 3.0.11 19 Sep 2023]
+18-Dec-2023 14:25:24.756 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-3000"]을(를) 초기화합니다.
+18-Dec-2023 14:25:24.772 정보 [main] org.apache.catalina.startup.Catalina.load [349] 밀리초 내에 서버가 초기화되었습니다.
+18-Dec-2023 14:25:24.814 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+18-Dec-2023 14:25:24.814 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.16]
+18-Dec-2023 14:25:24.824 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [D:\이윤희\3. 스프링\spring_study\exam07\conf\Catalina\localhost\exam07.xml]을(를) 배치합니다.
+18-Dec-2023 14:25:26.941 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+18-Dec-2023 14:25:27.121 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [D:\이윤희\3. 스프링\spring_study\exam07\conf\Catalina\localhost\exam07.xml]의 배치가 [2,297] 밀리초 내에 완료되었습니다.
+18-Dec-2023 14:25:27.124 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-3000"]을(를) 시작합니다.
+18-Dec-2023 14:25:27.151 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [2379] 밀리초 내에 시작되었습니다.
+18-Dec-2023 14:25:37.002 INFO [http-nio-3000-exec-1] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 8.0.1.Final
+18-Dec-2023 14:34:50.719 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-3000"]을(를) 일시 정지 중
+18-Dec-2023 14:34:50.723 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+18-Dec-2023 14:34:50.733 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-3000"]을(를) 중지시킵니다.
+18-Dec-2023 14:34:50.749 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-3000"]을(를) 소멸시킵니다.
+18-Dec-2023 14:34:52.996 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.16
+18-Dec-2023 14:34:52.999 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Nov 10 2023 16:17:33 UTC
+18-Dec-2023 14:34:52.999 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.16.0
+18-Dec-2023 14:34:52.999 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+18-Dec-2023 14:34:52.999 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+18-Dec-2023 14:34:52.999 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+18-Dec-2023 14:34:52.999 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\dev\language\java-17
+18-Dec-2023 14:34:52.999 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.8.1+1
+18-Dec-2023 14:34:52.999 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Eclipse Adoptium
+18-Dec-2023 14:34:52.999 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\이윤희\3. 스프링\spring_study\exam07
+18-Dec-2023 14:34:52.999 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\이윤희\apache-tomcat-10.1.16
+18-Dec-2023 14:34:53.006 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Dec-2023 14:34:53.006 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+18-Dec-2023 14:34:53.006 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+18-Dec-2023 14:34:53.006 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Dec-2023 14:34:53.006 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Dec-2023 14:34:53.006 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=D:\이윤희\apache-tomcat-10.1.16
+18-Dec-2023 14:34:53.006 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=D:\이윤희\3. 스프링\spring_study\exam07
+18-Dec-2023 14:34:53.006 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=D:\이윤희\3. 스프링\spring_study\exam07\temp
+18-Dec-2023 14:34:53.006 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=D:\이윤희\3. 스프링\spring_study\exam07\conf\logging.properties
+18-Dec-2023 14:34:53.007 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Dec-2023 14:34:53.007 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\lib\idea_rt.jar=50689:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\bin
+18-Dec-2023 14:34:53.007 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+18-Dec-2023 14:34:53.008 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.4]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [2.0.6]을(를) 로드했습니다.
+18-Dec-2023 14:34:53.012 정보 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 3.0.11 19 Sep 2023]
+18-Dec-2023 14:34:53.180 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-3000"]을(를) 초기화합니다.
+18-Dec-2023 14:34:53.193 정보 [main] org.apache.catalina.startup.Catalina.load [337] 밀리초 내에 서버가 초기화되었습니다.
+18-Dec-2023 14:34:53.234 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+18-Dec-2023 14:34:53.234 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.16]
+18-Dec-2023 14:34:53.242 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [D:\이윤희\3. 스프링\spring_study\exam07\conf\Catalina\localhost\exam07.xml]을(를) 배치합니다.
+18-Dec-2023 14:34:55.405 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+18-Dec-2023 14:34:55.593 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [D:\이윤희\3. 스프링\spring_study\exam07\conf\Catalina\localhost\exam07.xml]의 배치가 [2,350] 밀리초 내에 완료되었습니다.
+18-Dec-2023 14:34:55.595 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-3000"]을(를) 시작합니다.
+18-Dec-2023 14:34:55.624 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [2430] 밀리초 내에 시작되었습니다.
+18-Dec-2023 14:35:05.723 INFO [http-nio-3000-exec-1] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 8.0.1.Final
+18-Dec-2023 14:35:20.974 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-3000"]을(를) 일시 정지 중
+18-Dec-2023 14:35:20.977 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+18-Dec-2023 14:35:20.985 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-3000"]을(를) 중지시킵니다.
+18-Dec-2023 14:35:20.989 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-3000"]을(를) 소멸시킵니다.
+18-Dec-2023 14:35:23.270 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.16
+18-Dec-2023 14:35:23.273 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Nov 10 2023 16:17:33 UTC
+18-Dec-2023 14:35:23.273 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.16.0
+18-Dec-2023 14:35:23.273 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+18-Dec-2023 14:35:23.273 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+18-Dec-2023 14:35:23.273 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+18-Dec-2023 14:35:23.273 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\dev\language\java-17
+18-Dec-2023 14:35:23.273 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.8.1+1
+18-Dec-2023 14:35:23.274 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Eclipse Adoptium
+18-Dec-2023 14:35:23.274 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\이윤희\3. 스프링\spring_study\exam07
+18-Dec-2023 14:35:23.274 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\이윤희\apache-tomcat-10.1.16
+18-Dec-2023 14:35:23.279 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Dec-2023 14:35:23.280 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+18-Dec-2023 14:35:23.280 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+18-Dec-2023 14:35:23.280 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Dec-2023 14:35:23.280 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Dec-2023 14:35:23.280 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=D:\이윤희\apache-tomcat-10.1.16
+18-Dec-2023 14:35:23.280 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=D:\이윤희\3. 스프링\spring_study\exam07
+18-Dec-2023 14:35:23.280 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=D:\이윤희\3. 스프링\spring_study\exam07\temp
+18-Dec-2023 14:35:23.280 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=D:\이윤희\3. 스프링\spring_study\exam07\conf\logging.properties
+18-Dec-2023 14:35:23.280 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Dec-2023 14:35:23.280 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\lib\idea_rt.jar=50710:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\bin
+18-Dec-2023 14:35:23.280 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+18-Dec-2023 14:35:23.282 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.4]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [2.0.6]을(를) 로드했습니다.
+18-Dec-2023 14:35:23.286 정보 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 3.0.11 19 Sep 2023]
+18-Dec-2023 14:35:23.449 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-3000"]을(를) 초기화합니다.
+18-Dec-2023 14:35:23.463 정보 [main] org.apache.catalina.startup.Catalina.load [336] 밀리초 내에 서버가 초기화되었습니다.
+18-Dec-2023 14:35:23.501 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+18-Dec-2023 14:35:23.501 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.16]
+18-Dec-2023 14:35:23.513 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [D:\이윤희\3. 스프링\spring_study\exam07\conf\Catalina\localhost\exam07.xml]을(를) 배치합니다.
+18-Dec-2023 14:35:25.633 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+18-Dec-2023 14:35:25.821 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [D:\이윤희\3. 스프링\spring_study\exam07\conf\Catalina\localhost\exam07.xml]의 배치가 [2,307] 밀리초 내에 완료되었습니다.
+18-Dec-2023 14:35:25.823 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-3000"]을(를) 시작합니다.
+18-Dec-2023 14:35:25.852 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [2388] 밀리초 내에 시작되었습니다.
+18-Dec-2023 14:35:27.827 INFO [http-nio-3000-exec-1] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 8.0.1.Final
+18-Dec-2023 14:39:09.791 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-3000"]을(를) 일시 정지 중
+18-Dec-2023 14:39:09.795 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+18-Dec-2023 14:39:09.807 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-3000"]을(를) 중지시킵니다.
+18-Dec-2023 14:39:09.819 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-3000"]을(를) 소멸시킵니다.
+18-Dec-2023 14:39:12.201 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.16
+18-Dec-2023 14:39:12.203 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Nov 10 2023 16:17:33 UTC
+18-Dec-2023 14:39:12.203 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.16.0
+18-Dec-2023 14:39:12.204 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+18-Dec-2023 14:39:12.204 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+18-Dec-2023 14:39:12.204 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+18-Dec-2023 14:39:12.204 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\dev\language\java-17
+18-Dec-2023 14:39:12.204 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.8.1+1
+18-Dec-2023 14:39:12.204 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Eclipse Adoptium
+18-Dec-2023 14:39:12.204 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\이윤희\3. 스프링\spring_study\exam07
+18-Dec-2023 14:39:12.204 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\이윤희\apache-tomcat-10.1.16
+18-Dec-2023 14:39:12.211 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Dec-2023 14:39:12.211 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+18-Dec-2023 14:39:12.211 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+18-Dec-2023 14:39:12.211 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Dec-2023 14:39:12.211 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Dec-2023 14:39:12.211 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=D:\이윤희\apache-tomcat-10.1.16
+18-Dec-2023 14:39:12.211 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=D:\이윤희\3. 스프링\spring_study\exam07
+18-Dec-2023 14:39:12.211 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=D:\이윤희\3. 스프링\spring_study\exam07\temp
+18-Dec-2023 14:39:12.211 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=D:\이윤희\3. 스프링\spring_study\exam07\conf\logging.properties
+18-Dec-2023 14:39:12.211 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Dec-2023 14:39:12.211 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\lib\idea_rt.jar=50868:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\bin
+18-Dec-2023 14:39:12.212 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+18-Dec-2023 14:39:12.213 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.4]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [2.0.6]을(를) 로드했습니다.
+18-Dec-2023 14:39:12.217 정보 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 3.0.11 19 Sep 2023]
+18-Dec-2023 14:39:12.381 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-3000"]을(를) 초기화합니다.
+18-Dec-2023 14:39:12.397 정보 [main] org.apache.catalina.startup.Catalina.load [345] 밀리초 내에 서버가 초기화되었습니다.
+18-Dec-2023 14:39:12.441 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+18-Dec-2023 14:39:12.441 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.16]
+18-Dec-2023 14:39:12.453 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [D:\이윤희\3. 스프링\spring_study\exam07\conf\Catalina\localhost\exam07.xml]을(를) 배치합니다.
+18-Dec-2023 14:39:14.557 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+18-Dec-2023 14:39:14.733 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [D:\이윤희\3. 스프링\spring_study\exam07\conf\Catalina\localhost\exam07.xml]의 배치가 [2,278] 밀리초 내에 완료되었습니다.
+18-Dec-2023 14:39:14.735 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-3000"]을(를) 시작합니다.
+18-Dec-2023 14:39:14.764 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [2366] 밀리초 내에 시작되었습니다.
+18-Dec-2023 14:39:19.106 INFO [http-nio-3000-exec-1] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 8.0.1.Final
+18-Dec-2023 14:40:05.008 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-3000"]을(를) 일시 정지 중
+18-Dec-2023 14:40:05.011 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+18-Dec-2023 14:40:05.017 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-3000"]을(를) 중지시킵니다.
+18-Dec-2023 14:40:05.021 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-3000"]을(를) 소멸시킵니다.
+18-Dec-2023 14:40:07.244 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.16
+18-Dec-2023 14:40:07.248 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Nov 10 2023 16:17:33 UTC
+18-Dec-2023 14:40:07.249 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.16.0
+18-Dec-2023 14:40:07.249 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+18-Dec-2023 14:40:07.249 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+18-Dec-2023 14:40:07.249 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+18-Dec-2023 14:40:07.249 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\dev\language\java-17
+18-Dec-2023 14:40:07.249 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.8.1+1
+18-Dec-2023 14:40:07.249 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Eclipse Adoptium
+18-Dec-2023 14:40:07.249 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\이윤희\3. 스프링\spring_study\exam07
+18-Dec-2023 14:40:07.249 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\이윤희\apache-tomcat-10.1.16
+18-Dec-2023 14:40:07.255 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Dec-2023 14:40:07.255 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+18-Dec-2023 14:40:07.255 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+18-Dec-2023 14:40:07.255 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Dec-2023 14:40:07.255 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Dec-2023 14:40:07.255 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=D:\이윤희\apache-tomcat-10.1.16
+18-Dec-2023 14:40:07.255 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=D:\이윤희\3. 스프링\spring_study\exam07
+18-Dec-2023 14:40:07.255 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=D:\이윤희\3. 스프링\spring_study\exam07\temp
+18-Dec-2023 14:40:07.255 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=D:\이윤희\3. 스프링\spring_study\exam07\conf\logging.properties
+18-Dec-2023 14:40:07.255 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Dec-2023 14:40:07.255 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\lib\idea_rt.jar=50909:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\bin
+18-Dec-2023 14:40:07.255 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+18-Dec-2023 14:40:07.257 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.4]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [2.0.6]을(를) 로드했습니다.
+18-Dec-2023 14:40:07.261 정보 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 3.0.11 19 Sep 2023]
+18-Dec-2023 14:40:07.436 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-3000"]을(를) 초기화합니다.
+18-Dec-2023 14:40:07.454 정보 [main] org.apache.catalina.startup.Catalina.load [350] 밀리초 내에 서버가 초기화되었습니다.
+18-Dec-2023 14:40:07.498 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+18-Dec-2023 14:40:07.498 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.16]
+18-Dec-2023 14:40:07.507 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [D:\이윤희\3. 스프링\spring_study\exam07\conf\Catalina\localhost\exam07.xml]을(를) 배치합니다.
+18-Dec-2023 14:40:09.643 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+18-Dec-2023 14:40:09.835 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [D:\이윤희\3. 스프링\spring_study\exam07\conf\Catalina\localhost\exam07.xml]의 배치가 [2,326] 밀리초 내에 완료되었습니다.
+18-Dec-2023 14:40:09.838 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-3000"]을(를) 시작합니다.
+18-Dec-2023 14:40:09.867 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [2412] 밀리초 내에 시작되었습니다.
+18-Dec-2023 14:40:11.532 INFO [http-nio-3000-exec-1] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 8.0.1.Final
+18-Dec-2023 14:42:30.552 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-3000"]을(를) 일시 정지 중
+18-Dec-2023 14:42:30.555 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+18-Dec-2023 14:42:30.565 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-3000"]을(를) 중지시킵니다.
+18-Dec-2023 14:42:30.572 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-3000"]을(를) 소멸시킵니다.
+18-Dec-2023 14:42:32.965 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.16
+18-Dec-2023 14:42:32.967 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Nov 10 2023 16:17:33 UTC
+18-Dec-2023 14:42:32.967 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.16.0
+18-Dec-2023 14:42:32.967 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+18-Dec-2023 14:42:32.967 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+18-Dec-2023 14:42:32.967 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+18-Dec-2023 14:42:32.968 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\dev\language\java-17
+18-Dec-2023 14:42:32.968 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.8.1+1
+18-Dec-2023 14:42:32.968 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Eclipse Adoptium
+18-Dec-2023 14:42:32.968 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\이윤희\3. 스프링\spring_study\exam07
+18-Dec-2023 14:42:32.968 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\이윤희\apache-tomcat-10.1.16
+18-Dec-2023 14:42:32.973 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Dec-2023 14:42:32.973 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+18-Dec-2023 14:42:32.974 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+18-Dec-2023 14:42:32.974 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Dec-2023 14:42:32.974 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Dec-2023 14:42:32.974 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=D:\이윤희\apache-tomcat-10.1.16
+18-Dec-2023 14:42:32.974 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=D:\이윤희\3. 스프링\spring_study\exam07
+18-Dec-2023 14:42:32.974 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=D:\이윤희\3. 스프링\spring_study\exam07\temp
+18-Dec-2023 14:42:32.974 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=D:\이윤희\3. 스프링\spring_study\exam07\conf\logging.properties
+18-Dec-2023 14:42:32.974 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Dec-2023 14:42:32.974 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\lib\idea_rt.jar=51053:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\bin
+18-Dec-2023 14:42:32.974 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+18-Dec-2023 14:42:32.975 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.4]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [2.0.6]을(를) 로드했습니다.
+18-Dec-2023 14:42:32.980 정보 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 3.0.11 19 Sep 2023]
+18-Dec-2023 14:42:33.137 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-3000"]을(를) 초기화합니다.
+18-Dec-2023 14:42:33.149 정보 [main] org.apache.catalina.startup.Catalina.load [319] 밀리초 내에 서버가 초기화되었습니다.
+18-Dec-2023 14:42:33.188 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+18-Dec-2023 14:42:33.188 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.16]
+18-Dec-2023 14:42:33.198 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [D:\이윤희\3. 스프링\spring_study\exam07\conf\Catalina\localhost\exam07.xml]을(를) 배치합니다.
+18-Dec-2023 14:42:35.336 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+18-Dec-2023 14:42:35.522 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [D:\이윤희\3. 스프링\spring_study\exam07\conf\Catalina\localhost\exam07.xml]의 배치가 [2,322] 밀리초 내에 완료되었습니다.
+18-Dec-2023 14:42:35.527 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-3000"]을(를) 시작합니다.
+18-Dec-2023 14:42:35.555 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [2405] 밀리초 내에 시작되었습니다.
+18-Dec-2023 14:42:37.637 INFO [http-nio-3000-exec-1] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 8.0.1.Final
+18-Dec-2023 14:58:42.923 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-3000"]을(를) 일시 정지 중
+18-Dec-2023 14:58:42.926 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+18-Dec-2023 14:58:42.934 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-3000"]을(를) 중지시킵니다.
+18-Dec-2023 14:58:42.937 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-3000"]을(를) 소멸시킵니다.
+18-Dec-2023 14:58:45.303 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.16
+18-Dec-2023 14:58:45.306 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Nov 10 2023 16:17:33 UTC
+18-Dec-2023 14:58:45.307 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.16.0
+18-Dec-2023 14:58:45.307 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+18-Dec-2023 14:58:45.307 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+18-Dec-2023 14:58:45.307 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+18-Dec-2023 14:58:45.307 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\dev\language\java-17
+18-Dec-2023 14:58:45.307 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.8.1+1
+18-Dec-2023 14:58:45.307 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Eclipse Adoptium
+18-Dec-2023 14:58:45.307 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\이윤희\3. 스프링\spring_study\exam07
+18-Dec-2023 14:58:45.307 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\이윤희\apache-tomcat-10.1.16
+18-Dec-2023 14:58:45.314 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Dec-2023 14:58:45.314 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+18-Dec-2023 14:58:45.314 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+18-Dec-2023 14:58:45.314 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Dec-2023 14:58:45.314 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Dec-2023 14:58:45.314 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=D:\이윤희\apache-tomcat-10.1.16
+18-Dec-2023 14:58:45.315 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=D:\이윤희\3. 스프링\spring_study\exam07
+18-Dec-2023 14:58:45.315 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=D:\이윤희\3. 스프링\spring_study\exam07\temp
+18-Dec-2023 14:58:45.315 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=D:\이윤희\3. 스프링\spring_study\exam07\conf\logging.properties
+18-Dec-2023 14:58:45.315 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Dec-2023 14:58:45.315 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\lib\idea_rt.jar=51671:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\bin
+18-Dec-2023 14:58:45.315 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+18-Dec-2023 14:58:45.316 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.4]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [2.0.6]을(를) 로드했습니다.
+18-Dec-2023 14:58:45.320 정보 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 3.0.11 19 Sep 2023]
+18-Dec-2023 14:58:45.509 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-3000"]을(를) 초기화합니다.
+18-Dec-2023 14:58:45.530 정보 [main] org.apache.catalina.startup.Catalina.load [394] 밀리초 내에 서버가 초기화되었습니다.
+18-Dec-2023 14:58:45.575 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+18-Dec-2023 14:58:45.575 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.16]
+18-Dec-2023 14:58:45.587 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [D:\이윤희\3. 스프링\spring_study\exam07\conf\Catalina\localhost\exam07.xml]을(를) 배치합니다.
+18-Dec-2023 14:58:47.875 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+18-Dec-2023 14:58:48.071 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [D:\이윤희\3. 스프링\spring_study\exam07\conf\Catalina\localhost\exam07.xml]의 배치가 [2,482] 밀리초 내에 완료되었습니다.
+18-Dec-2023 14:58:48.073 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-3000"]을(를) 시작합니다.
+18-Dec-2023 14:58:48.102 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [2571] 밀리초 내에 시작되었습니다.
+18-Dec-2023 14:58:56.380 INFO [http-nio-3000-exec-1] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 8.0.1.Final
+18-Dec-2023 15:14:09.727 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-3000"]을(를) 일시 정지 중
+18-Dec-2023 15:14:09.730 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+18-Dec-2023 15:14:09.739 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-3000"]을(를) 중지시킵니다.
+18-Dec-2023 15:14:09.742 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-3000"]을(를) 소멸시킵니다.
+18-Dec-2023 15:14:11.155 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.16
+18-Dec-2023 15:14:11.157 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Nov 10 2023 16:17:33 UTC
+18-Dec-2023 15:14:11.158 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.16.0
+18-Dec-2023 15:14:11.158 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+18-Dec-2023 15:14:11.158 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+18-Dec-2023 15:14:11.158 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+18-Dec-2023 15:14:11.158 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\dev\language\java-17
+18-Dec-2023 15:14:11.158 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.8.1+1
+18-Dec-2023 15:14:11.158 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Eclipse Adoptium
+18-Dec-2023 15:14:11.158 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\이윤희\3. 스프링\spring_study\exam07
+18-Dec-2023 15:14:11.158 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\이윤희\apache-tomcat-10.1.16
+18-Dec-2023 15:14:11.164 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Dec-2023 15:14:11.164 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+18-Dec-2023 15:14:11.164 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+18-Dec-2023 15:14:11.165 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Dec-2023 15:14:11.165 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Dec-2023 15:14:11.165 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=D:\이윤희\apache-tomcat-10.1.16
+18-Dec-2023 15:14:11.165 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=D:\이윤희\3. 스프링\spring_study\exam07
+18-Dec-2023 15:14:11.165 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=D:\이윤희\3. 스프링\spring_study\exam07\temp
+18-Dec-2023 15:14:11.165 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=D:\이윤희\3. 스프링\spring_study\exam07\conf\logging.properties
+18-Dec-2023 15:14:11.165 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Dec-2023 15:14:11.165 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\lib\idea_rt.jar=52275:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\bin
+18-Dec-2023 15:14:11.165 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+18-Dec-2023 15:14:11.167 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.4]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [2.0.6]을(를) 로드했습니다.
+18-Dec-2023 15:14:11.171 정보 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 3.0.11 19 Sep 2023]
+18-Dec-2023 15:14:11.343 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-3000"]을(를) 초기화합니다.
+18-Dec-2023 15:14:11.359 정보 [main] org.apache.catalina.startup.Catalina.load [342] 밀리초 내에 서버가 초기화되었습니다.
+18-Dec-2023 15:14:11.394 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+18-Dec-2023 15:14:11.394 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.16]
+18-Dec-2023 15:14:11.407 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [D:\이윤희\3. 스프링\spring_study\exam07\conf\Catalina\localhost\exam07.xml]을(를) 배치합니다.
+18-Dec-2023 15:14:13.553 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+18-Dec-2023 15:14:13.732 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [D:\이윤희\3. 스프링\spring_study\exam07\conf\Catalina\localhost\exam07.xml]의 배치가 [2,323] 밀리초 내에 완료되었습니다.
+18-Dec-2023 15:14:13.736 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-3000"]을(를) 시작합니다.
+18-Dec-2023 15:14:13.762 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [2402] 밀리초 내에 시작되었습니다.
+18-Dec-2023 15:14:14.950 INFO [http-nio-3000-exec-1] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 8.0.1.Final
+18-Dec-2023 15:32:56.032 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-3000"]을(를) 일시 정지 중
+18-Dec-2023 15:32:56.036 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+18-Dec-2023 15:32:56.044 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-3000"]을(를) 중지시킵니다.
+18-Dec-2023 15:32:56.048 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-3000"]을(를) 소멸시킵니다.
+18-Dec-2023 15:32:58.238 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.16
+18-Dec-2023 15:32:58.241 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Nov 10 2023 16:17:33 UTC
+18-Dec-2023 15:32:58.241 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.16.0
+18-Dec-2023 15:32:58.241 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+18-Dec-2023 15:32:58.241 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+18-Dec-2023 15:32:58.241 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+18-Dec-2023 15:32:58.242 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\dev\language\java-17
+18-Dec-2023 15:32:58.242 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.8.1+1
+18-Dec-2023 15:32:58.242 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Eclipse Adoptium
+18-Dec-2023 15:32:58.242 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\이윤희\3. 스프링\spring_study\exam07
+18-Dec-2023 15:32:58.242 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\이윤희\apache-tomcat-10.1.16
+18-Dec-2023 15:32:58.247 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Dec-2023 15:32:58.247 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+18-Dec-2023 15:32:58.247 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+18-Dec-2023 15:32:58.247 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Dec-2023 15:32:58.247 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Dec-2023 15:32:58.247 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=D:\이윤희\apache-tomcat-10.1.16
+18-Dec-2023 15:32:58.247 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=D:\이윤희\3. 스프링\spring_study\exam07
+18-Dec-2023 15:32:58.249 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=D:\이윤희\3. 스프링\spring_study\exam07\temp
+18-Dec-2023 15:32:58.249 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=D:\이윤희\3. 스프링\spring_study\exam07\conf\logging.properties
+18-Dec-2023 15:32:58.249 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Dec-2023 15:32:58.249 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\lib\idea_rt.jar=52958:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\bin
+18-Dec-2023 15:32:58.249 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+18-Dec-2023 15:32:58.251 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.4]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [2.0.6]을(를) 로드했습니다.
+18-Dec-2023 15:32:58.255 정보 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 3.0.11 19 Sep 2023]
+18-Dec-2023 15:32:58.421 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-3000"]을(를) 초기화합니다.
+18-Dec-2023 15:32:58.438 정보 [main] org.apache.catalina.startup.Catalina.load [341] 밀리초 내에 서버가 초기화되었습니다.
+18-Dec-2023 15:32:58.475 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+18-Dec-2023 15:32:58.475 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.16]
+18-Dec-2023 15:32:58.486 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [D:\이윤희\3. 스프링\spring_study\exam07\conf\Catalina\localhost\exam07.xml]을(를) 배치합니다.
+18-Dec-2023 15:33:00.660 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+18-Dec-2023 15:33:00.852 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [D:\이윤희\3. 스프링\spring_study\exam07\conf\Catalina\localhost\exam07.xml]의 배치가 [2,364] 밀리초 내에 완료되었습니다.
+18-Dec-2023 15:33:00.855 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-3000"]을(를) 시작합니다.
+18-Dec-2023 15:33:00.882 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [2445] 밀리초 내에 시작되었습니다.
+18-Dec-2023 15:33:06.672 INFO [http-nio-3000-exec-2] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 8.0.1.Final
+18-Dec-2023 15:33:52.328 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-3000"]을(를) 일시 정지 중
+18-Dec-2023 15:33:52.331 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+18-Dec-2023 15:33:52.342 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-3000"]을(를) 중지시킵니다.
+18-Dec-2023 15:33:52.357 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-3000"]을(를) 소멸시킵니다.
+18-Dec-2023 15:33:54.605 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.16
+18-Dec-2023 15:33:54.607 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Nov 10 2023 16:17:33 UTC
+18-Dec-2023 15:33:54.607 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.16.0
+18-Dec-2023 15:33:54.608 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+18-Dec-2023 15:33:54.608 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+18-Dec-2023 15:33:54.608 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+18-Dec-2023 15:33:54.608 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\dev\language\java-17
+18-Dec-2023 15:33:54.608 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.8.1+1
+18-Dec-2023 15:33:54.608 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Eclipse Adoptium
+18-Dec-2023 15:33:54.608 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\이윤희\3. 스프링\spring_study\exam07
+18-Dec-2023 15:33:54.608 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\이윤희\apache-tomcat-10.1.16
+18-Dec-2023 15:33:54.614 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Dec-2023 15:33:54.614 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+18-Dec-2023 15:33:54.614 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+18-Dec-2023 15:33:54.614 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Dec-2023 15:33:54.614 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Dec-2023 15:33:54.614 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=D:\이윤희\apache-tomcat-10.1.16
+18-Dec-2023 15:33:54.615 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=D:\이윤희\3. 스프링\spring_study\exam07
+18-Dec-2023 15:33:54.615 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=D:\이윤희\3. 스프링\spring_study\exam07\temp
+18-Dec-2023 15:33:54.615 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=D:\이윤희\3. 스프링\spring_study\exam07\conf\logging.properties
+18-Dec-2023 15:33:54.615 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Dec-2023 15:33:54.615 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\lib\idea_rt.jar=52999:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\bin
+18-Dec-2023 15:33:54.615 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+18-Dec-2023 15:33:54.617 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.4]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [2.0.6]을(를) 로드했습니다.
+18-Dec-2023 15:33:54.621 정보 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 3.0.11 19 Sep 2023]
+18-Dec-2023 15:33:54.789 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-3000"]을(를) 초기화합니다.
+18-Dec-2023 15:33:54.807 정보 [main] org.apache.catalina.startup.Catalina.load [340] 밀리초 내에 서버가 초기화되었습니다.
+18-Dec-2023 15:33:54.852 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+18-Dec-2023 15:33:54.852 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.16]
+18-Dec-2023 15:33:54.863 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [D:\이윤희\3. 스프링\spring_study\exam07\conf\Catalina\localhost\exam07.xml]을(를) 배치합니다.
+18-Dec-2023 15:33:57.013 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+18-Dec-2023 15:33:57.208 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [D:\이윤희\3. 스프링\spring_study\exam07\conf\Catalina\localhost\exam07.xml]의 배치가 [2,343] 밀리초 내에 완료되었습니다.
+18-Dec-2023 15:33:57.210 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-3000"]을(를) 시작합니다.
+18-Dec-2023 15:33:57.239 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [2432] 밀리초 내에 시작되었습니다.
+18-Dec-2023 15:33:59.129 INFO [http-nio-3000-exec-1] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 8.0.1.Final
+18-Dec-2023 15:38:01.266 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-3000"]을(를) 일시 정지 중
+18-Dec-2023 15:38:01.269 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+18-Dec-2023 15:38:01.276 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-3000"]을(를) 중지시킵니다.
+18-Dec-2023 15:38:01.279 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-3000"]을(를) 소멸시킵니다.
+18-Dec-2023 15:38:03.554 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.16
+18-Dec-2023 15:38:03.556 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Nov 10 2023 16:17:33 UTC
+18-Dec-2023 15:38:03.557 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.16.0
+18-Dec-2023 15:38:03.557 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+18-Dec-2023 15:38:03.557 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+18-Dec-2023 15:38:03.557 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+18-Dec-2023 15:38:03.557 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\dev\language\java-17
+18-Dec-2023 15:38:03.557 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.8.1+1
+18-Dec-2023 15:38:03.557 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Eclipse Adoptium
+18-Dec-2023 15:38:03.557 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\이윤희\3. 스프링\spring_study\exam07
+18-Dec-2023 15:38:03.557 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\이윤희\apache-tomcat-10.1.16
+18-Dec-2023 15:38:03.563 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Dec-2023 15:38:03.563 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+18-Dec-2023 15:38:03.563 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+18-Dec-2023 15:38:03.563 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Dec-2023 15:38:03.563 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Dec-2023 15:38:03.563 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=D:\이윤희\apache-tomcat-10.1.16
+18-Dec-2023 15:38:03.563 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=D:\이윤희\3. 스프링\spring_study\exam07
+18-Dec-2023 15:38:03.563 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=D:\이윤희\3. 스프링\spring_study\exam07\temp
+18-Dec-2023 15:38:03.563 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=D:\이윤희\3. 스프링\spring_study\exam07\conf\logging.properties
+18-Dec-2023 15:38:03.563 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Dec-2023 15:38:03.565 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\lib\idea_rt.jar=53154:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\bin
+18-Dec-2023 15:38:03.565 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+18-Dec-2023 15:38:03.566 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.4]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [2.0.6]을(를) 로드했습니다.
+18-Dec-2023 15:38:03.571 정보 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 3.0.11 19 Sep 2023]
+18-Dec-2023 15:38:03.728 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-3000"]을(를) 초기화합니다.
+18-Dec-2023 15:38:03.742 정보 [main] org.apache.catalina.startup.Catalina.load [323] 밀리초 내에 서버가 초기화되었습니다.
+18-Dec-2023 15:38:03.782 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+18-Dec-2023 15:38:03.782 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.16]
+18-Dec-2023 15:38:03.792 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [D:\이윤희\3. 스프링\spring_study\exam07\conf\Catalina\localhost\exam07.xml]을(를) 배치합니다.
+18-Dec-2023 15:38:05.987 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+18-Dec-2023 15:38:06.179 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [D:\이윤희\3. 스프링\spring_study\exam07\conf\Catalina\localhost\exam07.xml]의 배치가 [2,386] 밀리초 내에 완료되었습니다.
+18-Dec-2023 15:38:06.183 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-3000"]을(를) 시작합니다.
+18-Dec-2023 15:38:06.215 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [2471] 밀리초 내에 시작되었습니다.
+18-Dec-2023 15:38:07.873 INFO [http-nio-3000-exec-1] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 8.0.1.Final
+18-Dec-2023 15:39:31.258 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-3000"]을(를) 일시 정지 중
+18-Dec-2023 15:39:31.262 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+18-Dec-2023 15:39:31.269 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-3000"]을(를) 중지시킵니다.
+18-Dec-2023 15:39:31.274 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-3000"]을(를) 소멸시킵니다.
+18-Dec-2023 15:39:33.636 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/10.1.16
+18-Dec-2023 15:39:33.639 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Nov 10 2023 16:17:33 UTC
+18-Dec-2023 15:39:33.639 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  10.1.16.0
+18-Dec-2023 15:39:33.639 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 11
+18-Dec-2023 15:39:33.639 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+18-Dec-2023 15:39:33.640 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+18-Dec-2023 15:39:33.640 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\dev\language\java-17
+18-Dec-2023 15:39:33.640 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.8.1+1
+18-Dec-2023 15:39:33.640 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Eclipse Adoptium
+18-Dec-2023 15:39:33.640 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\이윤희\3. 스프링\spring_study\exam07
+18-Dec-2023 15:39:33.640 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\이윤희\apache-tomcat-10.1.16
+18-Dec-2023 15:39:33.648 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Dec-2023 15:39:33.648 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+18-Dec-2023 15:39:33.648 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+18-Dec-2023 15:39:33.648 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Dec-2023 15:39:33.648 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Dec-2023 15:39:33.648 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=D:\이윤희\apache-tomcat-10.1.16
+18-Dec-2023 15:39:33.648 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=D:\이윤희\3. 스프링\spring_study\exam07
+18-Dec-2023 15:39:33.648 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=D:\이윤희\3. 스프링\spring_study\exam07\temp
+18-Dec-2023 15:39:33.648 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=D:\이윤희\3. 스프링\spring_study\exam07\conf\logging.properties
+18-Dec-2023 15:39:33.648 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Dec-2023 15:39:33.648 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\lib\idea_rt.jar=53235:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\bin
+18-Dec-2023 15:39:33.648 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+18-Dec-2023 15:39:33.650 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.4]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [2.0.6]을(를) 로드했습니다.
+18-Dec-2023 15:39:33.654 정보 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 3.0.11 19 Sep 2023]
+18-Dec-2023 15:39:33.840 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-3000"]을(를) 초기화합니다.
+18-Dec-2023 15:39:33.858 정보 [main] org.apache.catalina.startup.Catalina.load [356] 밀리초 내에 서버가 초기화되었습니다.
+18-Dec-2023 15:39:33.898 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+18-Dec-2023 15:39:33.899 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/10.1.16]
+18-Dec-2023 15:39:33.910 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [D:\이윤희\3. 스프링\spring_study\exam07\conf\Catalina\localhost\exam07.xml]을(를) 배치합니다.
+18-Dec-2023 15:39:36.072 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+18-Dec-2023 15:39:36.241 정보 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [D:\이윤희\3. 스프링\spring_study\exam07\conf\Catalina\localhost\exam07.xml]의 배치가 [2,330] 밀리초 내에 완료되었습니다.
+18-Dec-2023 15:39:36.243 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-3000"]을(를) 시작합니다.
+18-Dec-2023 15:39:36.273 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [2414] 밀리초 내에 시작되었습니다.
+18-Dec-2023 15:39:38.471 INFO [http-nio-3000-exec-1] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 8.0.1.Final
+18-Dec-2023 15:43:35.561 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-3000"]을(를) 일시 정지 중
+18-Dec-2023 15:43:35.564 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+18-Dec-2023 15:43:35.575 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-3000"]을(를) 중지시킵니다.
+18-Dec-2023 15:43:35.600 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-3000"]을(를) 소멸시킵니다.
