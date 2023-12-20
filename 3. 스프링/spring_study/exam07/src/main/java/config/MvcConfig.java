@@ -10,7 +10,9 @@ import org.springframework.context.MessageSource;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
+import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 import org.springframework.context.support.ResourceBundleMessageSource;
+import org.springframework.core.io.ClassPathResource;
 import org.springframework.validation.Validator;
 import org.springframework.web.servlet.config.annotation.*;
 import org.thymeleaf.extras.java8time.dialect.Java8TimeDialect;
@@ -20,7 +22,7 @@ import org.thymeleaf.spring6.view.ThymeleafViewResolver;
 
 @Configuration
 @EnableWebMvc // 프록시 형태로 adepter, viewResolver, handler 다 추가됨
-@Import(DbConfig.class)
+@Import(DbConfig2.class)
 public class MvcConfig implements WebMvcConfigurer {
 
     //WebMvcConfigurer
@@ -54,6 +56,10 @@ public class MvcConfig implements WebMvcConfigurer {
         registry.addResourceHandler("/**") // 기본경로 ~ 현재 경로를 포함한 모든 하위 경로
                 .addResourceLocations("classpath:/static/");
         // 정적 자원 경로 찾0.
+        registry.addResourceHandler("/upload/**")
+                .addResourceLocations("file:///C:/uploads/");
+                // / 두개가 있어야 file로 인식 -> 하지만 / 하나는 escape 문자로, 제거해버림 -> 3개 작성해줘야 2개로 인식
+        // exam07/upload/파일이름 하면 C:/uploads/파일이름이 호출됨
     }
 
     @Override
@@ -120,6 +126,17 @@ public class MvcConfig implements WebMvcConfigurer {
     @Bean
     public Utils utils(){
         return new Utils();
+    }
+
+    @Bean
+    public static PropertySourcesPlaceholderConfigurer configurer(){
+
+        PropertySourcesPlaceholderConfigurer conf = new PropertySourcesPlaceholderConfigurer();
+        conf.setLocations(
+                new ClassPathResource("application.properties")
+        );
+
+        return conf;
     }
 
     @Override
