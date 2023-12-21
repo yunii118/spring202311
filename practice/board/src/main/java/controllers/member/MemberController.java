@@ -3,6 +3,7 @@ package controllers.member;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import models.member.JoinService;
+import models.member.LoginService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.Errors;
@@ -18,6 +19,8 @@ public class MemberController {
 
     private final JoinValidator joinValidator;
     private final JoinService joinService;
+    private final LoginValidator loginValidator;
+    private final LoginService loginService;
     @GetMapping("/join")
     public String join(@ModelAttribute RequestJoin form, Model model){
         model.addAttribute("pageTitle", "회원가입");
@@ -41,5 +44,14 @@ public class MemberController {
         model.addAttribute("pageTitle", "로그인");
 
         return "/member/login";
+    }
+    @PostMapping("/login")
+    public String loginPs(@Valid RequestLogin form, Errors errors, Model model){
+        loginValidator.validate(form, errors);
+
+        if(errors.hasErrors()){
+            return "/member/login";
+        }
+        return "redirect:/";
     }
 }
