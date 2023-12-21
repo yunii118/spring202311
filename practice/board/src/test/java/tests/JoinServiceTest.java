@@ -4,6 +4,7 @@ import config.ControllerConfig;
 import config.MvcConfig;
 import models.member.JoinService;
 import models.member.MemberDao;
+import models.member.MemberDto;
 import org.apache.tomcat.jdbc.pool.DataSource;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
@@ -17,6 +18,8 @@ import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.context.WebApplicationContext;
 
 import java.sql.Connection;
+
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @Transactional
 @SpringJUnitWebConfig
@@ -46,5 +49,37 @@ public class JoinServiceTest {
         }catch (Exception e){
             e.printStackTrace();
         }
+    }
+
+    @Test
+    @DisplayName("exist 테스트")
+    void existTest(){
+        boolean result = memberDao.exist("user01");
+        assertTrue(result);
+    }
+
+    @Test
+    @DisplayName("regist 테스트")
+    void registTest(){
+        MemberDto memberDto = MemberDto.builder()
+                .userId("user02")
+                .userPw("123456")
+                .userNm("사용자02")
+                .email("user02@test.org")
+                .build();
+
+        boolean result = memberDao.register(memberDto);
+        assertTrue(result);
+    }
+
+    @Test
+    @DisplayName("get 테스트")
+    void getTest(){
+        MemberDto memberDto = memberDao.get("user01");
+
+        boolean result = memberDto != null ? true : false;
+
+        assertTrue(result);
+
     }
 }
