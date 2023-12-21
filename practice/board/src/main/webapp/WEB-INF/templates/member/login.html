@@ -4,17 +4,17 @@
         layout:decorate="~{layouts/common}">
 <main layout:fragment="content">
     <h1 th:text="#{로그인}"></h1>
-    <form method="post" th:action="@{/member/login}">
+    <form method="post" th:action="@{/member/login}" th:object="${requestLogin}">
         <dl>
             <dt th:text="#{아이디}">  </dt>
             <dd>
-                <input type="text" name="userId">
+                <input type="text" name="userId" th:field="*{userId}">
             </dd>
         </dl>
         <dl>
             <dt th:text="#{비밀번호}"></dt>
             <dd>
-                <input type="password" name="userPw">
+                <input type="password" name="userPw" th:field="*{userPw}">
             </dd>
         </dl>
         <button type="submit" th:text="#{로그인}"></button>
