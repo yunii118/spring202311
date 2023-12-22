@@ -1,5 +1,6 @@
 package controllers.member;
 
+import jakarta.servlet.http.HttpSession;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import models.member.JoinService;
@@ -52,6 +53,14 @@ public class MemberController {
         if(errors.hasErrors()){
             return "/member/login";
         }
+        loginService.login(form);
+
         return "redirect:/";
+    }
+
+    @RequestMapping("/logout")
+    public String logout(HttpSession session){
+        session.invalidate();
+        return "/member/login";
     }
 }
