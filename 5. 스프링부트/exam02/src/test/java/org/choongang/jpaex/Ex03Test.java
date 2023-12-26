@@ -1,7 +1,7 @@
-package com.choongang.jpaex;
+package org.choongang.jpaex;
 
-import com.choongang.entities.BoardData;
-import com.choongang.repositories.BoardDataRepository;
+import org.choongang.entities.BoardData;
+import org.choongang.repositories.BoardDataRepository;
 import jakarta.persistence.Transient;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

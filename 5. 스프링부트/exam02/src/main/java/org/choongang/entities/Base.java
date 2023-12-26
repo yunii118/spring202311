@@ -1,4 +1,4 @@
-package com.choongang.entities;
+package org.choongang.entities;
 
 
 import jakarta.persistence.Column;

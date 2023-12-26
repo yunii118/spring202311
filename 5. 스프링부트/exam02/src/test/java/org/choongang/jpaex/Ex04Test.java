@@ -1,8 +1,8 @@
-package com.choongang.jpaex;
+package org.choongang.jpaex;
 
 
-import com.choongang.entities.BoardData;
-import com.choongang.repositories.BoardDataRepository;
+import org.choongang.entities.BoardData;
+import org.choongang.repositories.BoardDataRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

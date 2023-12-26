@@ -1,4 +1,4 @@
-package com.choongang.commons;
+package org.choongang.commons;
 
 public enum MemberType {
     ADMIN, // 관리자

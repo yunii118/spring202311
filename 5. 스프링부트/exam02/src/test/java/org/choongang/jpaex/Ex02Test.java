@@ -1,6 +1,6 @@
-package com.choongang.jpaex;
+package org.choongang.jpaex;
 
-import com.choongang.entities.Member;
+import org.choongang.entities.Member;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import org.junit.jupiter.api.BeforeEach;

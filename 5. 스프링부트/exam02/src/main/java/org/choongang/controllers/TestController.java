@@ -1,7 +1,7 @@
-package com.choongang.controllers;
+package org.choongang.controllers;
 
-import com.choongang.entities.BoardData;
-import com.choongang.repositories.BoardDataRepository;
+import org.choongang.entities.BoardData;
+import org.choongang.repositories.BoardDataRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;

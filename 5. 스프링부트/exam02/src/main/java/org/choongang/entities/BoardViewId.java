@@ -1,4 +1,4 @@
-package com.choongang.entities;
+package org.choongang.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;

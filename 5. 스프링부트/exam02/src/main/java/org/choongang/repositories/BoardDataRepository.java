@@ -1,6 +1,6 @@
-package com.choongang.repositories;
+package org.choongang.repositories;
 
-import com.choongang.entities.BoardData;
+import org.choongang.entities.BoardData;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
