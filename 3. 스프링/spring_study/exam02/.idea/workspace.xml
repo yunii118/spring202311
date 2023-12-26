@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="531fbb65-7e29-4822-9a66-eb92cb2eed06" name="Changes" comment="" />
+    <list default="true" id="531fbb65-7e29-4822-9a66-eb92cb2eed06" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../5. 스프링부트/exam01/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../5. 스프링부트/exam01/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../5. 스프링부트/exam01/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../5. 스프링부트/exam01/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,9 +16,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2ZJDoLzxVIObLWnSS2I1IHCE270" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -22,9 +28,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "board",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/iyunhui/Documents/app/spring/3. 스프링/spring_study/exam02",
+    "last_opened_file_path": "D:/이윤희/3. 스프링/spring_study/exam03",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
