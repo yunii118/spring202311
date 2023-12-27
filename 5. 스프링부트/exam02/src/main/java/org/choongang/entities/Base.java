@@ -4,6 +4,7 @@ package org.choongang.entities;
 import jakarta.persistence.Column;
 import jakarta.persistence.EntityListeners;
 import jakarta.persistence.MappedSuperclass;
+import jakarta.persistence.OneToOne;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.data.annotation.CreatedDate;
@@ -26,4 +27,5 @@ public abstract class Base {
     @LastModifiedDate
     @Column(insertable = false)
     private LocalDateTime modifiedAt;
+
 }
