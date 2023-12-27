@@ -4,56 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dedca40d-87ab-47c7-b399-59948b70180f" name="Changes" comment="gitignore">
-      <change afterPath="$PROJECT_DIR$/../../3. 스프링/spring_study/exam01/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../3. 스프링/spring_study/exam01/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../3. 스프링/spring_study/exam01/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../3. 스프링/spring_study/exam01/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../4. 자바보강/annotationex/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../4. 자바보강/annotationex/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../4. 자바보강/annotationex/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../4. 자바보강/annotationex/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/choongang/entities/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/choongang/entities/HashTag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/choongang/repositories/AddressRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/choongang/repositories/HashTagRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/choongang/jpaex/Ex05Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/choongang/jpaex/Ex06Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/choongang/jpaex/Ex07Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/choongang/jpaex/Ex08Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../3. 스프링/spring_study/exam05/caches/jars-9/06476da7dca12d27d223ea3a07c55f53/gradle-tooling-extension-api.jar.lock.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../3. 스프링/spring_study/exam05/caches/jars-9/081e2e711b97698b4c84838d37ce6538/init.jar.receipt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../3. 스프링/spring_study/exam05/caches/jars-9/0ead2181d2d07f9df1986eb593ad9232/cp_init.jar.receipt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../3. 스프링/spring_study/exam05/caches/jars-9/19df57d0b81373abc81779ee1d8fc6f6/proj.jar.lock.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../3. 스프링/spring_study/exam05/caches/jars-9/20261368beb3e70cef83740a40af43d1/android-kotlin-extensions-tooling.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../3. 스프링/spring_study/exam05/caches/jars-9/2b3a90dfe2bd972ad62974ba38da1a58/cp_settings.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../3. 스프링/spring_study/exam05/caches/jars-9/2b3a90dfe2bd972ad62974ba38da1a58/cp_settings.jar.lock.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../3. 스프링/spring_study/exam05/caches/jars-9/2b3a90dfe2bd972ad62974ba38da1a58/cp_settings.jar.receipt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../3. 스프링/spring_study/exam05/caches/jars-9/2dc5c3b1e1712a80346c8ab56b18ed58/gradle-tooling-extension-impl.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../3. 스프링/spring_study/exam05/caches/jars-9/2dc5c3b1e1712a80346c8ab56b18ed58/gradle-tooling-extension-impl.jar.receipt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../3. 스프링/spring_study/exam05/caches/jars-9/7384c3b8b0cb69ef1f002f6deef193c8/proj.jar.lock.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../3. 스프링/spring_study/exam05/caches/jars-9/74813909b5b1a50ec32c6bb189cb6331/cp_init.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../3. 스프링/spring_study/exam05/caches/jars-9/74813909b5b1a50ec32c6bb189cb6331/cp_init.jar.receipt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../3. 스프링/spring_study/exam05/caches/jars-9/a6edc5283c6ab342f9d937e884e74226/proj.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../3. 스프링/spring_study/exam05/caches/jars-9/a6edc5283c6ab342f9d937e884e74226/proj.jar.receipt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../3. 스프링/spring_study/exam05/caches/jars-9/afad1cef8825cdf1905fae36e6531299/util_rt.jar.lock.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../3. 스프링/spring_study/exam05/caches/jars-9/afad1cef8825cdf1905fae36e6531299/util_rt.jar.receipt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../3. 스프링/spring_study/exam05/caches/jars-9/c28ca9790d5f820b5476da77f43b81c0/cp_init.jar.lock.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../3. 스프링/spring_study/exam05/caches/jars-9/db0df3bedf31134a40bc034896b8b268/proj.jar.lock.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../3. 스프링/spring_study/exam05/caches/jars-9/db0df3bedf31134a40bc034896b8b268/proj.jar.receipt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../3. 스프링/spring_study/exam05/caches/jars-9/eaf7926c305a7e13b26204a8a274f5e8/cp_init.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../3. 스프링/spring_study/exam05/caches/jars-9/eaf7926c305a7e13b26204a8a274f5e8/cp_init.jar.lock.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../3. 스프링/spring_study/exam05/caches/jars-9/f58394f544d63ec8d40ac3b84bad9f5f/cp_init.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../3. 스프링/spring_study/exam05/caches/modules-2/metadata-2.106/resource-at-url.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../3. 스프링/spring_study/exam05/caches/modules-2/metadata-2.106/resource-at-url.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="dedca40d-87ab-47c7-b399-59948b70180f" name="Changes" comment="db 로딩,">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/choongang/entities/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/choongang/entities/Base.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/choongang/entities/BoardData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/choongang/entities/BoardData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/choongang/entities/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/choongang/entities/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/choongang/repositories/BoardDataRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/choongang/repositories/BoardDataRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/choongang/repositories/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/choongang/repositories/MemberRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/choongang/jpaex/Ex04Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/choongang/jpaex/Ex04Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,16 +52,16 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;board&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/이윤희/5. 스프링부트/exam01&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "board",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/이윤희/4. 자바보강/ioex",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="JUnit.Ex06Test.test5">
     <configuration name="Ex06Test.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="exam02.test" />
@@ -233,13 +185,22 @@
       <option name="project" value="LOCAL" />
       <updated>1703634532604</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="db 로딩,">
+      <option name="closed" value="true" />
+      <created>1703660501393</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703660501393</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="unversioned" />
     <MESSAGE value="파일 수정" />
     <MESSAGE value="gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
+    <MESSAGE value="db 로딩," />
+    <option name="LAST_COMMIT_MESSAGE" value="db 로딩," />
   </component>
 </project>
