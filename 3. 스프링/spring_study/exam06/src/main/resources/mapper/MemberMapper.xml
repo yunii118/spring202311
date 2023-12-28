@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mapper.MemberMapper">
+    <select id="getMembers" resultType="models.member.Member">
+        SELECT * FROM MEMBER
+        <trim prefix="WHERE" suffixOverrides="AND | OR">
+            <if test="userId != null">
+                <bind name="pattern1" value="'%' + _parameter.getUserId() + '%'"/>
+                USER_ID LIKE #{pattern1} AND
+            </if>
+            <if test="userNm != null">
+                <bind name="pattern2" value="'%' + _parameter.getUserNm() + '%'"/>
+                USER_NM LIKE #{pattern2} AND
+            </if>
+        </trim>
+    </select>
+    <insert id="register">
+        <selectKey keyProperty="userNo" order="BEFORE" resultType="long">
+            SELECT SEQ_MEMBER.nextval FROM DUAL
+        </selectKey>
+        INSERT INTO MEMBER (USER_NO, USER_ID, USER_PW, USER_NM, EMAIL)
+        VALUES (#{userNo}, #{userId}, #{userPw}, #{userNm}, #{email})
+    </insert>
+    <update id="update">
+        UPDATE MEMBER
+        <set>
+                <if test="userPw != null">
+                USER_PW = #{userPw},
+                </if>
+                <if test="userNm != null">
+                USER_NM = #{userNm},
+                </if>
+                <if test="email != null">
+                EMAIL = #{email}
+                </if>
+        </set>
+            WHERE USER_ID = #{userId}
+    </update>
+    <delete id="delete">
+        DELETE FROM MEMBER WHERE USER_ID = #{userId}
+    </delete>
+</mapper>

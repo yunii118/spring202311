@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<header th:fragment="common">
+   <!-- 로그인 상태면 마이페이지, 로그아웃 노출-->
+<div th:if="${@utils.isLogin()}">
+   <a th:href="@{/mypage}" th:text="#{마이페이지}"></a>
+   <a th:href="@{/member/logout}" th:text="#{로그아웃}"></a>
+</div>
+   <!-- 로그아웃 상태면 로그인 노출 -->
+   <div th:unless="${@utils.isLogin()}">
+
+   </div>
+</header>
+</html>
