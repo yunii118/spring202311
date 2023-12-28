@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dedca40d-87ab-47c7-b399-59948b70180f" name="Changes" comment="db 로딩,">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/choongang/jpaex/Ex09Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/choongang/entities/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/choongang/entities/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/choongang/jpaex/Ex08Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/choongang/jpaex/Ex08Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,11 +20,23 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -58,43 +73,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "board",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/이윤희/4. 자바보강/ioex",
+    "last_opened_file_path": "D:/이윤희/5. 스프링부트/project",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.Ex06Test.test5">
-    <configuration name="Ex06Test.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="exam02.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.choongang.jpaex.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.choongang.jpaex" />
-      <option name="MAIN_CLASS_NAME" value="org.choongang.jpaex.Ex06Test" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ex06Test.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="exam02.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.choongang.jpaex.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.choongang.jpaex" />
-      <option name="MAIN_CLASS_NAME" value="org.choongang.jpaex.Ex06Test" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Ex09Test.test1">
     <configuration name="Ex06Test.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="exam02.test" />
       <extension name="coverage">
@@ -143,13 +126,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ex08Test.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exam02.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.choongang.jpaex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.choongang.jpaex" />
+      <option name="MAIN_CLASS_NAME" value="org.choongang.jpaex.Ex08Test" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex09Test.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exam02.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.choongang.jpaex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.choongang.jpaex" />
+      <option name="MAIN_CLASS_NAME" value="org.choongang.jpaex.Ex09Test" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Ex09Test.test1" />
+        <item itemvalue="JUnit.Ex08Test.test2" />
+        <item itemvalue="JUnit.Ex08Test.test1" />
         <item itemvalue="JUnit.Ex06Test.test5" />
         <item itemvalue="JUnit.Ex06Test.test4" />
-        <item itemvalue="JUnit.Ex06Test.test3" />
-        <item itemvalue="JUnit.Ex06Test.test1" />
-        <item itemvalue="JUnit.Ex08Test.test1" />
       </list>
     </recent_temporary>
   </component>

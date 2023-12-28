@@ -40,7 +40,7 @@ public class Member extends Base {
    /* @Temporal(TemporalType.DATE)
     public Date dt;*/
     @ToString.Exclude
-    @OneToMany (mappedBy =  "member", fetch = FetchType.LAZY) // 즉시 실행
+    @OneToMany (mappedBy =  "member", fetch = FetchType.LAZY, cascade = CascadeType.REMOVE)
     private List<BoardData> items = new ArrayList<>();
 
     @OneToOne(fetch = FetchType.LAZY)
